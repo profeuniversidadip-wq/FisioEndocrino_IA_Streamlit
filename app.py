@@ -19,13 +19,13 @@ st.markdown("""
 }
 .block-container{
     max-width:1080px;
-    padding-top:.35rem;
+    padding-top:1.15rem;
     padding-bottom:.6rem;
 }
 h1{
-    font-size:1.55rem!important;
-    line-height:1.08!important;
-    margin:.05rem 0 .1rem 0!important;
+    font-size:1.58rem!important;
+    line-height:1.12!important;
+    margin:.15rem 0 .15rem 0!important;
     color:#1f2937!important;
 }
 h2,h3{
@@ -133,17 +133,9 @@ div[data-testid="stVerticalBlockBorderWrapper"] > div{
     font-size:.68rem;
     line-height:1.15;
 }
-.footer-box{
-    margin-top:.55rem;
-    padding-top:.45rem;
-    border-top:1px solid #d6dfeb;
-    text-align:center;
-    color:#667085;
-    font-size:.68rem;
-}
 @media(max-width:700px){
     .block-container{
-        padding:.25rem .45rem .45rem .45rem;
+        padding:.75rem .45rem .45rem .45rem;
     }
     h1{
         font-size:1.25rem!important;
@@ -183,6 +175,42 @@ div[data-testid="stVerticalBlockBorderWrapper"] > div{
         padding:7px 8px;
     }
 }
+
+.custom-header-title{
+    font-size:1.65rem;
+    font-weight:750;
+    line-height:1.1;
+    color:#1f2937;
+    margin:.2rem 0 .15rem 0;
+}
+.custom-header-sub{
+    font-size:.78rem;
+    color:#667085;
+    margin-bottom:.35rem;
+}
+.fixed-footer{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:999;
+    background:rgba(244,248,252,.96);
+    border-top:1px solid #d6dfeb;
+    text-align:center;
+    padding:5px 8px;
+    font-size:.68rem;
+    color:#667085;
+    backdrop-filter:blur(4px);
+}
+.block-container{
+    padding-bottom:2.2rem!important;
+}
+@media(max-width:700px){
+    .custom-header-title{font-size:1.28rem;}
+    .custom-header-sub{font-size:.70rem;}
+    .fixed-footer{font-size:.62rem;padding:4px 6px;}
+}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -194,8 +222,8 @@ POR_NIVEL={n:[q for q in PREGUNTAS if q["nivel"]==n] for n in range(1,5)}
 
 def footer():
     st.markdown("""
-    <div class="footer-box">
-      <strong>Cristian Barahona Videla</strong> · Uso educativo · © 2026
+    <div class="fixed-footer">
+      Creado por <strong>Cristian Barahona Videla</strong> · Uso educativo · © 2026
     </div>
     """, unsafe_allow_html=True)
 
@@ -263,8 +291,10 @@ init()
 # Header: title left, safe restart at top-right using popover confirmation.
 head1, head2 = st.columns([5.6,1.3], vertical_alignment="top")
 with head1:
-    st.title("FisioEndocrino IA")
-    st.caption("10 preguntas por sesión · banco de 80 preguntas")
+    st.markdown("""
+    <div class="custom-header-title">FisioEndocrino IA</div>
+    <div class="custom-header-sub">10 preguntas por sesión · banco de 80 preguntas</div>
+    """, unsafe_allow_html=True)
 with head2:
     if st.session_state.iniciada:
         with st.popover("↻ Reiniciar", use_container_width=True):

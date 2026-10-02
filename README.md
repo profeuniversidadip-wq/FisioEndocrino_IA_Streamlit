@@ -35,3 +35,10 @@ Aplicación adaptativa basada en la clase **Sistema Endocrino 2026**.
 - Tipografías, márgenes y botones más compactos.
 - Reiniciar visible en la parte superior.
 - Optimizado para PC y celular.
+
+- Título visible con mayor margen superior.
+- Pie actualizado a “Creado por Cristian Barahona Videla · Uso educativo · © 2026”.
+
+## Encabezado y autoría robustos
+- Título renderizado como HTML propio para evitar recorte.
+- Autoría visible en barra inferior fija.
