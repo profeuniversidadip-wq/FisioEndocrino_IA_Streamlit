@@ -12,3 +12,10 @@ Aplicación adaptativa basada en la clase **Sistema Endocrino 2026**.
 - Reinicio en la parte superior con confirmación.
 - Desarrollado por Cristian Barahona Videla.
 - Uso educativo · © 2026.
+
+
+## Retroalimentación
+- Pregunta presentada en un recuadro con borde fino.
+- Primer error: "Error porque" y segundo intento.
+- Segundo error: "Error porque", "Respuesta correcta" e "Idea clave".
+- Respuesta correcta: "Correcto" e "Idea clave".

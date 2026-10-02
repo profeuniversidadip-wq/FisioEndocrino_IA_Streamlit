@@ -43,6 +43,45 @@ div[data-testid="stMetric"]{
     h1{font-size:1.55rem!important}
     .stButton>button{font-size:.95rem}
 }
+
+.question-box{
+    border:1px solid #cfd8e6;
+    border-radius:12px;
+    padding:16px 18px;
+    background:rgba(255,255,255,.78);
+    margin:.35rem 0 1rem 0;
+    box-shadow:0 2px 8px rgba(31,41,55,.03);
+}
+.question-topic{
+    color:#667085;
+    font-size:.88rem;
+    margin-bottom:.45rem;
+}
+.question-text{
+    color:#25324a;
+    font-size:1.22rem;
+    line-height:1.45;
+    font-weight:650;
+}
+.feedback-error{
+    border-left:3px solid #c2410c;
+    background:#fff7ed;
+    border-radius:8px;
+    padding:12px 14px;
+    margin-top:.8rem;
+}
+.feedback-ok{
+    border-left:3px solid #15803d;
+    background:#f0fdf4;
+    border-radius:8px;
+    padding:12px 14px;
+    margin-top:.8rem;
+}
+.feedback-label{
+    font-weight:700;
+    color:#344054;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -190,8 +229,15 @@ st.progress(st.session_state.respondidas/TOTAL)
 left,right=st.columns([4.6,1.55], gap="large")
 
 with left:
-    st.markdown(f"**Tema:** {q['tema']}")
-    st.subheader(q["pregunta"])
+    st.markdown(
+        f"""
+        <div class="question-box">
+          <div class="question-topic"><strong>Tema:</strong> {q['tema']}</div>
+          <div class="question-text">{q['pregunta']}</div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
     letras=["A","B","C","D"]
     opciones=[f"{letras[i]}. {txt}" for i,txt in enumerate(q["alternativas"])]
     sel=st.radio(
@@ -202,10 +248,11 @@ with left:
         disabled=st.session_state.bloqueada
     )
     if st.session_state.feedback:
-        if st.session_state.feedback_tipo=="ok":
-            st.success(st.session_state.feedback)
-        else:
-            st.warning(st.session_state.feedback)
+        css_class = "feedback-ok" if st.session_state.feedback_tipo=="ok" else "feedback-error"
+        st.markdown(
+            f'<div class="{css_class}">{st.session_state.feedback}</div>',
+            unsafe_allow_html=True
+        )
 
 with right:
     st.markdown('<div class="action-card">', unsafe_allow_html=True)
@@ -239,7 +286,11 @@ if responder:
         st.session_state.respondidas+=1
         st.session_state.bloqueada=True
         st.session_state.feedback_tipo="ok"
-        st.session_state.feedback="Correcto. "+q["explicacionCorrecta"]
+        st.session_state.feedback=(
+            '<span class="feedback-label">Correcto.</span><br><br>'
+            '<span class="feedback-label">Idea clave:</span> '
+            + q["explicacionCorrecta"]
+        )
         st.session_state.historial.append({"nivel":q["nivel"],"tema":q["tema"],"correcta":True})
         avanzar_nivel(True)
     else:
@@ -248,15 +299,22 @@ if responder:
         if st.session_state.intento==1:
             st.session_state.intento=2
             st.session_state.feedback_tipo="error"
-            st.session_state.feedback=texto+"\n\n**Tienes un segundo intento.**"
+            st.session_state.feedback=(
+                '<span class="feedback-label">Error porque:</span> '
+                + texto
+                + '<br><br><span class="feedback-label">Tienes un segundo intento.</span>'
+            )
         else:
             st.session_state.respondidas+=1
             st.session_state.bloqueada=True
             st.session_state.feedback_tipo="error"
             st.session_state.feedback=(
-                texto+
-                f"\n\n**Respuesta correcta:** {q['alternativas'][q['correcta']]}"+
-                f"\n\n**Idea clave:** {q['explicacionCorrecta']}"
+                '<span class="feedback-label">Error porque:</span> '
+                + texto
+                + '<br><br><span class="feedback-label">Respuesta correcta:</span> '
+                + q["alternativas"][q["correcta"]]
+                + '<br><br><span class="feedback-label">Idea clave:</span> '
+                + q["explicacionCorrecta"]
             )
             st.session_state.historial.append({"nivel":q["nivel"],"tema":q["tema"],"correcta":False})
             avanzar_nivel(False)
