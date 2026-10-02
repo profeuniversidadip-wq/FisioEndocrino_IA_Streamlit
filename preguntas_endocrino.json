@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "tema": "Función del sistema endocrino",
+    "nivel": 1,
+    "pregunta": "¿Cuál es la función general del sistema endocrino?",
+    "alternativas": [
+      "Coordinar funciones corporales mediante hormonas liberadas a la sangre",
+      "Transmitir impulsos eléctricos directamente hacia los músculos",
+      "Transportar oxígeno desde los pulmones hacia los tejidos",
+      "Generar respuestas inmunológicas frente a microorganismos"
+    ],
+    "correcta": 0,
+    "feedbackIncorrecto": [
+      "",
+      "Esa función corresponde principalmente al sistema nervioso somático. El sistema endocrino utiliza hormonas como mensajeros químicos.",
+      "El transporte de oxígeno es una función del sistema cardiovascular y de la hemoglobina.",
+      "La defensa frente a microorganismos corresponde principalmente al sistema inmunitario."
+    ],
+    "explicacionCorrecta": "El sistema endocrino regula procesos como crecimiento, metabolismo, reproducción y homeostasis mediante hormonas.",
+    "siguienteSiAcierta": 2,
+    "siguienteSiFalla": 5
+  },
+  {
+    "id": 2,
+    "tema": "Función del sistema endocrino",
+    "nivel": 2,
+    "pregunta": "¿Qué característica distingue principalmente a la comunicación endocrina?",
+    "alternativas": [
+      "Las señales se transmiten exclusivamente entre neuronas",
+      "Las hormonas pueden viajar por la sangre hasta células diana alejadas",
+      "La señal siempre actúa sobre todas las células del organismo",
+      "Las hormonas producen respuestas exclusivamente inmediatas"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "La transmisión entre neuronas corresponde a comunicación nerviosa, no endocrina.",
+      "",
+      "Una hormona actúa principalmente sobre células que poseen receptores apropiados.",
+      "Las respuestas endocrinas pueden ser rápidas o lentas; muchas tienen efectos prolongados."
+    ],
+    "explicacionCorrecta": "En la señalización endocrina, las hormonas se liberan al medio interno y pueden alcanzar tejidos alejados mediante la circulación.",
+    "siguienteSiAcierta": 3,
+    "siguienteSiFalla": 1
+  },
+  {
+    "id": 3,
+    "tema": "Función del sistema endocrino",
+    "nivel": 3,
+    "pregunta": "Una hormona se encuentra elevada en sangre, pero un tejido determinado no responde. ¿Cuál es una explicación fisiológica posible?",
+    "alternativas": [
+      "El tejido carece de receptores funcionales para esa hormona",
+      "Toda hormona necesita ingresar directamente al núcleo celular",
+      "La hormona solo puede actuar cerca de la glándula que la produce",
+      "La circulación sanguínea impide que las hormonas alcancen los tejidos"
+    ],
+    "correcta": 0,
+    "feedbackIncorrecto": [
+      "",
+      "No todas las hormonas actúan mediante receptores nucleares; muchas utilizan receptores de membrana.",
+      "Eso corresponde más a una señalización local. Las hormonas endocrinas pueden actuar a distancia.",
+      "Precisamente la circulación permite distribuir muchas hormonas hacia sus tejidos diana."
+    ],
+    "explicacionCorrecta": "La presencia de una hormona no garantiza respuesta. La célula debe poseer receptores funcionales y una vía de señalización adecuada.",
+    "siguienteSiAcierta": 4,
+    "siguienteSiFalla": 2
+  },
+  {
+    "id": 4,
+    "tema": "Función del sistema endocrino",
+    "nivel": 4,
+    "pregunta": "Un paciente presenta concentraciones normales de una hormona, pero manifiesta signos compatibles con déficit de su acción. ¿Qué alteración explica mejor este hallazgo?",
+    "alternativas": [
+      "Aumento de la filtración renal de agua",
+      "Alteración del receptor o de la señalización intracelular",
+      "Aumento inespecífico del flujo sanguíneo",
+      "Disminución de la actividad de todas las glándulas endocrinas"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "Ese fenómeno no explica por sí mismo una pérdida selectiva de acción hormonal.",
+      "",
+      "El flujo sanguíneo puede modificar la distribución, pero no explica adecuadamente una resistencia hormonal específica.",
+      "Si la concentración de la hormona estudiada es normal, una falla global de todas las glándulas no es la explicación más coherente."
+    ],
+    "explicacionCorrecta": "Una alteración del receptor o de los mecanismos posteriores al receptor puede producir resistencia hormonal aun con concentraciones plasmáticas normales.",
+    "siguienteSiAcierta": 6,
+    "siguienteSiFalla": 2
+  },
+  {
+    "id": 5,
+    "tema": "Función del sistema endocrino",
+    "nivel": 1,
+    "pregunta": "Las sustancias químicas producidas por las glándulas endocrinas se denominan:",
+    "alternativas": [
+      "Enzimas",
+      "Neurofilamentos",
+      "Hormonas",
+      "Anticuerpos"
+    ],
+    "correcta": 2,
+    "feedbackIncorrecto": [
+      "Las enzimas catalizan reacciones químicas, pero no constituyen por definición los mensajeros endocrinos.",
+      "Los neurofilamentos son componentes estructurales de las neuronas.",
+      "",
+      "Los anticuerpos son proteínas producidas por células del sistema inmunitario."
+    ],
+    "explicacionCorrecta": "Las hormonas son mensajeros químicos producidos por células endocrinas y liberados hacia el medio interno.",
+    "siguienteSiAcierta": 2,
+    "siguienteSiFalla": 5
+  },
+  {
+    "id": 6,
+    "tema": "Célula diana y receptor",
+    "nivel": 1,
+    "pregunta": "¿Qué característica permite que una célula responda específicamente a una hormona?",
+    "alternativas": [
+      "Poseer un receptor capaz de reconocerla",
+      "Encontrarse próxima a cualquier vaso sanguíneo",
+      "Tener un núcleo de gran tamaño",
+      "Producir necesariamente la misma hormona"
+    ],
+    "correcta": 0,
+    "feedbackIncorrecto": [
+      "",
+      "Estar cerca de un vaso favorece el acceso, pero no determina la especificidad de la respuesta.",
+      "El tamaño del núcleo no determina la sensibilidad hormonal.",
+      "Una célula diana no necesita producir la hormona para responder a ella."
+    ],
+    "explicacionCorrecta": "La especificidad hormonal depende principalmente de la presencia y funcionalidad de receptores adecuados.",
+    "siguienteSiAcierta": 7,
+    "siguienteSiFalla": 5
+  },
+  {
+    "id": 7,
+    "tema": "Célula diana y receptor",
+    "nivel": 2,
+    "pregunta": "Dos tejidos reciben la misma concentración de una hormona, pero solo uno modifica su actividad. ¿Cuál es la explicación más probable?",
+    "alternativas": [
+      "La sangre transportó hormonas diferentes hacia cada tejido",
+      "Solo uno de los tejidos posee receptores adecuados",
+      "Las hormonas actúan aleatoriamente sobre los órganos",
+      "La hormona desaparece inmediatamente después de salir de la glándula"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "Ambos tejidos están expuestos a la misma hormona según el enunciado.",
+      "",
+      "La acción hormonal es selectiva y depende de receptores y vías de señalización.",
+      "Las hormonas pueden mantenerse circulantes durante períodos variables antes de ser metabolizadas."
+    ],
+    "explicacionCorrecta": "La presencia del receptor determina qué células pueden reconocer y responder a una hormona.",
+    "siguienteSiAcierta": 8,
+    "siguienteSiFalla": 6
+  },
+  {
+    "id": 8,
+    "tema": "Célula diana y receptor",
+    "nivel": 3,
+    "pregunta": "Si disminuye progresivamente el número de receptores de una hormona en una célula, manteniéndose constante la concentración hormonal, ¿qué podría ocurrir?",
+    "alternativas": [
+      "Aumentaría necesariamente la secreción de todas las hormonas",
+      "La célula podría disminuir su respuesta a esa hormona",
+      "La hormona se transformaría automáticamente en otra",
+      "La célula comenzaría a responder a cualquier hormona circulante"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "La regulación de receptores no implica automáticamente el aumento de todas las hormonas.",
+      "",
+      "La disminución de receptores modifica la sensibilidad celular, no transforma químicamente la hormona.",
+      "Los receptores conservan especificidad; disminuir uno no genera sensibilidad indiscriminada."
+    ],
+    "explicacionCorrecta": "Una reducción de receptores puede disminuir la sensibilidad de la célula y, por tanto, su respuesta a una concentración hormonal determinada.",
+    "siguienteSiAcierta": 9,
+    "siguienteSiFalla": 7
+  },
+  {
+    "id": 9,
+    "tema": "Hipotálamo e hipófisis",
+    "nivel": 1,
+    "pregunta": "¿Qué estructura conecta funcionalmente al sistema nervioso con el sistema endocrino?",
+    "alternativas": [
+      "Hipotálamo",
+      "Cerebelo",
+      "Médula espinal",
+      "Corteza occipital"
+    ],
+    "correcta": 0,
+    "feedbackIncorrecto": [
+      "",
+      "El cerebelo participa principalmente en coordinación motora y equilibrio.",
+      "La médula espinal transmite información nerviosa, pero no es el principal centro integrador neuroendocrino.",
+      "La corteza occipital está asociada principalmente con el procesamiento visual."
+    ],
+    "explicacionCorrecta": "El hipotálamo integra señales nerviosas y regula gran parte de la actividad endocrina mediante su relación con la hipófisis.",
+    "siguienteSiAcierta": 10,
+    "siguienteSiFalla": 9
+  },
+  {
+    "id": 10,
+    "tema": "Hipófisis",
+    "nivel": 1,
+    "pregunta": "La hipófisis se localiza:",
+    "alternativas": [
+      "En la cavidad torácica",
+      "En la silla turca del hueso esfenoides",
+      "En la región posterior del cerebelo",
+      "Sobre la glándula tiroides"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "La hipófisis se encuentra en la cavidad craneal, no en el tórax.",
+      "",
+      "No está ubicada en el cerebelo.",
+      "La hipófisis se encuentra en la base del encéfalo y no sobre la tiroides."
+    ],
+    "explicacionCorrecta": "La hipófisis está situada en la silla turca del hueso esfenoides y se conecta con el hipotálamo mediante el tallo hipofisario.",
+    "siguienteSiAcierta": 11,
+    "siguienteSiFalla": 9
+  },
+  {
+    "id": 11,
+    "tema": "Adenohipófisis",
+    "nivel": 2,
+    "pregunta": "¿Cuál de las siguientes hormonas es secretada por la adenohipófisis?",
+    "alternativas": [
+      "ADH",
+      "Oxitocina",
+      "TSH",
+      "Melatonina"
+    ],
+    "correcta": 2,
+    "feedbackIncorrecto": [
+      "La ADH se sintetiza en el hipotálamo y se libera desde la neurohipófisis.",
+      "La oxitocina se sintetiza en el hipotálamo y se libera desde la neurohipófisis.",
+      "",
+      "La melatonina es producida principalmente por la glándula pineal."
+    ],
+    "explicacionCorrecta": "La adenohipófisis secreta, entre otras, TSH, ACTH, GH, prolactina, FSH y LH.",
+    "siguienteSiAcierta": 12,
+    "siguienteSiFalla": 10
+  },
+  {
+    "id": 12,
+    "tema": "Neurohipófisis",
+    "nivel": 2,
+    "pregunta": "¿Qué afirmación describe correctamente a la neurohipófisis?",
+    "alternativas": [
+      "Sintetiza TSH y ACTH",
+      "Produce hormonas tiroideas",
+      "Almacena y libera ADH y oxitocina sintetizadas en el hipotálamo",
+      "Controla directamente la secreción de insulina"
+    ],
+    "correcta": 2,
+    "feedbackIncorrecto": [
+      "TSH y ACTH son secretadas por la adenohipófisis.",
+      "Las hormonas tiroideas son producidas por la glándula tiroides.",
+      "",
+      "La secreción de insulina depende principalmente de la glucemia y de las células beta pancreáticas."
+    ],
+    "explicacionCorrecta": "La neurohipófisis no sintetiza ADH ni oxitocina; ambas se producen en neuronas hipotalámicas y luego se almacenan y liberan desde la neurohipófisis.",
+    "siguienteSiAcierta": 13,
+    "siguienteSiFalla": 11
+  },
+  {
+    "id": 13,
+    "tema": "Eje hipotálamo-hipófisis-tiroides",
+    "nivel": 3,
+    "pregunta": "Si disminuyen significativamente las concentraciones de hormonas tiroideas en sangre, ¿qué respuesta fisiológica sería esperable en un eje hipotálamo-hipófisis-tiroides intacto?",
+    "alternativas": [
+      "Disminución de TRH y TSH",
+      "Aumento de TRH y TSH",
+      "Aumento de insulina y disminución de TSH",
+      "Supresión completa de la actividad hipotalámica"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "Cuando disminuyen T3 y T4 se reduce la retroalimentación negativa, por lo que TRH y TSH tienden a aumentar.",
+      "",
+      "La insulina no regula directamente este eje.",
+      "La disminución de hormonas tiroideas estimula, en lugar de suprimir, el eje regulador."
+    ],
+    "explicacionCorrecta": "La disminución de T3 y T4 reduce la retroalimentación negativa sobre hipotálamo e hipófisis, favoreciendo el aumento de TRH y TSH.",
+    "siguienteSiAcierta": 14,
+    "siguienteSiFalla": 11
+  },
+  {
+    "id": 14,
+    "tema": "Retroalimentación endocrina",
+    "nivel": 3,
+    "pregunta": "Un aumento sostenido de cortisol normalmente provoca disminución de ACTH. ¿Qué mecanismo explica este fenómeno?",
+    "alternativas": [
+      "Retroalimentación positiva",
+      "Difusión simple entre glándulas",
+      "Retroalimentación negativa",
+      "Estimulación parasimpática directa"
+    ],
+    "correcta": 2,
+    "feedbackIncorrecto": [
+      "La retroalimentación positiva amplifica una respuesta; aquí ocurre inhibición del eje.",
+      "La relación entre cortisol y ACTH depende de regulación hormonal, no de difusión directa entre glándulas.",
+      "",
+      "El control principal del eje hipotálamo-hipófisis-suprarrenal no depende de estimulación parasimpática directa."
+    ],
+    "explicacionCorrecta": "El cortisol ejerce retroalimentación negativa sobre hipotálamo e hipófisis, reduciendo CRH y ACTH.",
+    "siguienteSiAcierta": 15,
+    "siguienteSiFalla": 13
+  },
+  {
+    "id": 15,
+    "tema": "Ejes endocrinos",
+    "nivel": 4,
+    "pregunta": "Un paciente presenta T4 baja y TSH elevada. ¿Cuál es la interpretación fisiológica más coherente?",
+    "alternativas": [
+      "La hipófisis está respondiendo a una disminución de hormonas tiroideas",
+      "Existe necesariamente una falla primaria de la hipófisis",
+      "La elevada TSH inhibe por completo la tiroides",
+      "La T4 baja demuestra exceso de función tiroidea"
+    ],
+    "correcta": 0,
+    "feedbackIncorrecto": [
+      "",
+      "Una TSH elevada indica que la hipófisis conserva capacidad de respuesta; una falla hipofisaria suele asociarse a TSH inapropiadamente baja o normal.",
+      "La función principal de TSH es estimular la glándula tiroides.",
+      "Una T4 disminuida indica reducción de disponibilidad hormonal, no exceso."
+    ],
+    "explicacionCorrecta": "T4 baja con TSH elevada es compatible con una respuesta compensatoria de la hipófisis frente a una disminución de producción tiroidea.",
+    "siguienteSiAcierta": 16,
+    "siguienteSiFalla": 13
+  },
+  {
+    "id": 16,
+    "tema": "Glándula tiroides",
+    "nivel": 1,
+    "pregunta": "¿Cuál es una función principal de las hormonas tiroideas T3 y T4?",
+    "alternativas": [
+      "Regular el metabolismo energético",
+      "Producir anticuerpos",
+      "Iniciar directamente la coagulación",
+      "Transportar oxígeno"
+    ],
+    "correcta": 0,
+    "feedbackIncorrecto": [
+      "",
+      "La producción de anticuerpos corresponde al sistema inmunitario.",
+      "La coagulación depende principalmente de plaquetas y factores plasmáticos.",
+      "El oxígeno es transportado principalmente por la hemoglobina."
+    ],
+    "explicacionCorrecta": "T3 y T4 participan en la regulación del metabolismo, consumo energético, crecimiento y desarrollo.",
+    "siguienteSiAcierta": 17,
+    "siguienteSiFalla": 16
+  },
+  {
+    "id": 17,
+    "tema": "Paratiroides",
+    "nivel": 2,
+    "pregunta": "¿Qué cambio estimula normalmente la secreción de hormona paratiroidea (PTH)?",
+    "alternativas": [
+      "Aumento de calcio plasmático",
+      "Disminución de calcio plasmático",
+      "Aumento de glucosa plasmática",
+      "Disminución de sodio únicamente"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "El aumento del calcio tiende a disminuir la secreción de PTH.",
+      "",
+      "La glucemia no constituye el estímulo principal para la secreción de PTH.",
+      "La regulación de PTH depende principalmente de la concentración de calcio."
+    ],
+    "explicacionCorrecta": "Una disminución del calcio plasmático estimula la secreción de PTH, que contribuye a recuperar la calcemia.",
+    "siguienteSiAcierta": 18,
+    "siguienteSiFalla": 16
+  },
+  {
+    "id": 18,
+    "tema": "Integración endocrina",
+    "nivel": 4,
+    "pregunta": "Si una glándula endocrina periférica deja de responder a la hormona trófica proveniente de la hipófisis, ¿qué patrón podría aparecer?",
+    "alternativas": [
+      "Hormona hipofisaria baja y hormona periférica alta",
+      "Hormona hipofisaria elevada y hormona periférica disminuida",
+      "Ambas hormonas necesariamente elevadas",
+      "Ausencia total de cambios debido a la homeostasis"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "Si la hormona periférica cae, disminuye la retroalimentación negativa y la hormona hipofisaria suele aumentar.",
+      "",
+      "La glándula periférica resistente no necesariamente puede aumentar su producción hormonal.",
+      "La homeostasis intenta compensar la alteración, por lo que sí pueden producirse cambios hormonales."
+    ],
+    "explicacionCorrecta": "La falla de una glándula periférica puede disminuir su hormona final y, al perderse la retroalimentación negativa, aumentar la hormona trófica hipofisaria.",
+    "siguienteSiAcierta": 19,
+    "siguienteSiFalla": 13
+  },
+  {
+    "id": 19,
+    "tema": "Tipos de hormonas",
+    "nivel": 1,
+    "pregunta": "¿Cuál de las siguientes corresponde a una hormona esteroidea?",
+    "alternativas": [
+      "Insulina",
+      "Cortisol",
+      "ADH",
+      "Glucagón"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "La insulina es una hormona peptídica.",
+      "",
+      "La ADH es una hormona peptídica.",
+      "El glucagón es una hormona peptídica."
+    ],
+    "explicacionCorrecta": "El cortisol es una hormona esteroidea derivada del colesterol.",
+    "siguienteSiAcierta": 20,
+    "siguienteSiFalla": 19
+  },
+  {
+    "id": 20,
+    "tema": "Tipos de hormonas",
+    "nivel": 1,
+    "pregunta": "Las hormonas peptídicas se caracterizan principalmente por:",
+    "alternativas": [
+      "Ser liposolubles y atravesar libremente la membrana",
+      "Unirse siempre a receptores nucleares",
+      "Ser hidrosolubles y actuar habitualmente mediante receptores de membrana",
+      "Circular exclusivamente unidas a proteínas transportadoras"
+    ],
+    "correcta": 2,
+    "feedbackIncorrecto": [
+      "Esta característica corresponde principalmente a hormonas liposolubles.",
+      "Las hormonas peptídicas suelen utilizar receptores de membrana.",
+      "",
+      "Muchas hormonas peptídicas circulan principalmente libres en plasma."
+    ],
+    "explicacionCorrecta": "Las hormonas peptídicas son hidrosolubles y normalmente activan receptores ubicados en la membrana celular.",
+    "siguienteSiAcierta": 21,
+    "siguienteSiFalla": 19
+  },
+  {
+    "id": 21,
+    "tema": "Receptores hormonales",
+    "nivel": 2,
+    "pregunta": "Una hormona que no puede atravesar fácilmente la bicapa lipídica ejercerá normalmente su efecto mediante:",
+    "alternativas": [
+      "Un receptor intracelular exclusivamente nuclear",
+      "Un receptor ubicado en la membrana plasmática",
+      "La unión directa al ADN sin receptor",
+      "La destrucción de la membrana celular"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "Los receptores intracelulares son más característicos de hormonas liposolubles.",
+      "",
+      "Las hormonas necesitan mecanismos específicos de reconocimiento para producir una respuesta.",
+      "La señalización hormonal no requiere destruir la membrana."
+    ],
+    "explicacionCorrecta": "Las hormonas hidrosolubles utilizan receptores de membrana que activan mecanismos de señalización intracelular.",
+    "siguienteSiAcierta": 22,
+    "siguienteSiFalla": 20
+  },
+  {
+    "id": 22,
+    "tema": "Receptores hormonales",
+    "nivel": 2,
+    "pregunta": "¿Qué grupo hormonal utiliza con mayor frecuencia receptores intracelulares?",
+    "alternativas": [
+      "Hormonas esteroideas",
+      "Hormonas peptídicas",
+      "Catecolaminas en general",
+      "Hormonas proteicas de gran tamaño"
+    ],
+    "correcta": 0,
+    "feedbackIncorrecto": [
+      "",
+      "Las hormonas peptídicas utilizan principalmente receptores de membrana.",
+      "Las catecolaminas actúan principalmente mediante receptores de membrana.",
+      "Las proteínas grandes no atraviesan libremente la bicapa lipídica."
+    ],
+    "explicacionCorrecta": "Las hormonas esteroideas atraviesan la membrana y se unen a receptores intracelulares citoplasmáticos o nucleares.",
+    "siguienteSiAcierta": 23,
+    "siguienteSiFalla": 21
+  },
+  {
+    "id": 23,
+    "tema": "Mecanismo de acción hormonal",
+    "nivel": 2,
+    "pregunta": "¿Cuál es la función principal de un segundo mensajero en la señalización hormonal?",
+    "alternativas": [
+      "Transportar la hormona por la sangre",
+      "Transmitir y amplificar la señal dentro de la célula",
+      "Sintetizar directamente la hormona",
+      "Eliminar receptores de la membrana"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "El transporte sanguíneo ocurre antes de que la hormona llegue a la célula diana.",
+      "",
+      "La síntesis hormonal ocurre en células endocrinas y no es función del segundo mensajero.",
+      "Algunas señales pueden regular receptores, pero esa no es la función principal de los segundos mensajeros."
+    ],
+    "explicacionCorrecta": "Los segundos mensajeros permiten transmitir y amplificar la señal generada por la unión hormona-receptor.",
+    "siguienteSiAcierta": 24,
+    "siguienteSiFalla": 21
+  },
+  {
+    "id": 24,
+    "tema": "Mecanismo de acción hormonal",
+    "nivel": 3,
+    "pregunta": "Una hormona activa un receptor de membrana y aumenta rápidamente el AMPc intracelular. ¿Qué representa el AMPc?",
+    "alternativas": [
+      "Una hormona circulante",
+      "Un segundo mensajero",
+      "Un receptor nuclear",
+      "Una proteína transportadora plasmática"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "El AMPc se produce dentro de la célula tras la activación del receptor.",
+      "",
+      "El AMPc no es un receptor.",
+      "No participa en el transporte plasmático de hormonas."
+    ],
+    "explicacionCorrecta": "El AMPc es un segundo mensajero que transmite señales desde receptores de membrana hacia mecanismos intracelulares.",
+    "siguienteSiAcierta": 25,
+    "siguienteSiFalla": 23
+  },
+  {
+    "id": 25,
+    "tema": "Mecanismo de acción hormonal",
+    "nivel": 3,
+    "pregunta": "¿Por qué las hormonas esteroideas suelen tener efectos más lentos pero prolongados?",
+    "alternativas": [
+      "Porque modifican frecuentemente la expresión génica y la síntesis proteica",
+      "Porque no poseen receptores específicos",
+      "Porque permanecen exclusivamente fuera de la célula",
+      "Porque destruyen rápidamente sus células diana"
+    ],
+    "correcta": 0,
+    "feedbackIncorrecto": [
+      "",
+      "Las hormonas esteroideas poseen receptores específicos.",
+      "Pueden atravesar la membrana y actuar mediante receptores intracelulares.",
+      "Su acción fisiológica no depende de destruir células."
+    ],
+    "explicacionCorrecta": "Muchos efectos de las hormonas esteroideas dependen de cambios en transcripción génica y síntesis de proteínas, lo que requiere tiempo.",
+    "siguienteSiAcierta": 26,
+    "siguienteSiFalla": 22
+  },
+  {
+    "id": 26,
+    "tema": "Transporte hormonal",
+    "nivel": 3,
+    "pregunta": "Una hormona liposoluble circula en sangre principalmente unida a proteínas plasmáticas. ¿Qué ventaja fisiológica puede proporcionar esta unión?",
+    "alternativas": [
+      "Impedir completamente que llegue a sus tejidos diana",
+      "Aumentar su solubilidad y prolongar su permanencia en circulación",
+      "Convertirla automáticamente en una hormona peptídica",
+      "Permitir que actúe sin receptor"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "La hormona puede disociarse del transportador y quedar disponible para actuar.",
+      "",
+      "La unión a proteínas no cambia la naturaleza química de la hormona.",
+      "La presencia de un receptor sigue siendo necesaria para producir una respuesta específica."
+    ],
+    "explicacionCorrecta": "Las proteínas transportadoras facilitan el transporte de hormonas liposolubles y pueden prolongar su vida media plasmática.",
+    "siguienteSiAcierta": 27,
+    "siguienteSiFalla": 22
+  },
+  {
+    "id": 27,
+    "tema": "Transporte hormonal",
+    "nivel": 4,
+    "pregunta": "Si aumenta bruscamente una proteína transportadora plasmática para una hormona liposoluble, pero la producción hormonal permanece estable, ¿qué cambio inicial podría observarse?",
+    "alternativas": [
+      "Aumento inmediato de la fracción libre",
+      "Disminución transitoria de la fracción libre",
+      "Desaparición completa de la hormona",
+      "Pérdida inmediata de todos sus receptores"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "Una mayor disponibilidad de proteínas transportadoras tiende inicialmente a captar más hormona libre.",
+      "",
+      "La hormona no desaparece; cambia su distribución entre fracción libre y unida.",
+      "La concentración de proteínas transportadoras no elimina automáticamente los receptores."
+    ],
+    "explicacionCorrecta": "Al aumentar la proteína transportadora, una mayor proporción de hormona puede quedar unida inicialmente, reduciendo transitoriamente la fracción libre.",
+    "siguienteSiAcierta": 28,
+    "siguienteSiFalla": 26
+  },
+  {
+    "id": 28,
+    "tema": "Sensibilidad hormonal",
+    "nivel": 3,
+    "pregunta": "Una célula expuesta durante mucho tiempo a concentraciones elevadas de una hormona puede reducir el número de receptores. Este fenómeno se denomina:",
+    "alternativas": [
+      "Retroalimentación positiva",
+      "Up-regulation",
+      "Down-regulation",
+      "Potenciación osmótica"
+    ],
+    "correcta": 2,
+    "feedbackIncorrecto": [
+      "La retroalimentación positiva describe la amplificación de una respuesta, no la disminución de receptores.",
+      "Up-regulation corresponde al aumento del número o sensibilidad de receptores.",
+      "",
+      "No es un mecanismo reconocido de regulación de receptores hormonales."
+    ],
+    "explicacionCorrecta": "El down-regulation disminuye la cantidad o disponibilidad de receptores y reduce la sensibilidad celular frente a una exposición hormonal persistente.",
+    "siguienteSiAcierta": 29,
+    "siguienteSiFalla": 22
+  },
+  {
+    "id": 29,
+    "tema": "Sensibilidad hormonal",
+    "nivel": 4,
+    "pregunta": "Un paciente mantiene una concentración plasmática elevada de una hormona, pero con el tiempo la respuesta del tejido disminuye. ¿Qué mecanismo celular podría contribuir a este fenómeno?",
+    "alternativas": [
+      "Aumento sostenido de receptores",
+      "Down-regulation de receptores",
+      "Producción de más hormona por el mismo tejido diana",
+      "Conversión del receptor en hormona"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "Un aumento de receptores tendería a incrementar, no reducir, la sensibilidad.",
+      "",
+      "El problema descrito es disminución de respuesta del tejido, no necesariamente aumento de síntesis hormonal.",
+      "Los receptores no se transforman en hormonas."
+    ],
+    "explicacionCorrecta": "La exposición prolongada a concentraciones hormonales elevadas puede disminuir receptores o reducir la señalización intracelular, generando menor sensibilidad.",
+    "siguienteSiAcierta": 30,
+    "siguienteSiFalla": 28
+  },
+  {
+    "id": 30,
+    "tema": "Integración de mecanismos hormonales",
+    "nivel": 4,
+    "pregunta": "Dos hormonas producen el mismo efecto fisiológico final. Una actúa en segundos y la otra requiere varias horas. ¿Cuál es la explicación más probable?",
+    "alternativas": [
+      "Ambas utilizan necesariamente el mismo tipo de receptor",
+      "La hormona rápida podría utilizar señalización de membrana y la lenta modificar expresión génica",
+      "La hormona lenta carece de receptor",
+      "La hormona rápida debe ser siempre esteroidea"
+    ],
+    "correcta": 1,
+    "feedbackIncorrecto": [
+      "Un mismo efecto final puede alcanzarse mediante vías de señalización diferentes.",
+      "",
+      "Toda respuesta hormonal específica requiere reconocimiento mediante receptores.",
+      "Las hormonas esteroideas suelen presentar respuestas relativamente más lentas debido a sus efectos genómicos."
+    ],
+    "explicacionCorrecta": "La velocidad de respuesta depende del mecanismo de señalización. Las vías de membrana pueden modificar proteínas preexistentes rápidamente, mientras que la regulación génica suele requerir más tiempo.",
+    "siguienteSiAcierta": null,
+    "siguienteSiFalla": 24
+  }
+]
