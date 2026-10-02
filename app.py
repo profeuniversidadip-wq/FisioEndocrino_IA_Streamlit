@@ -44,25 +44,6 @@ div[data-testid="stMetric"]{
     .stButton>button{font-size:.95rem}
 }
 
-.question-box{
-    border:1px solid #cfd8e6;
-    border-radius:12px;
-    padding:16px 18px;
-    background:rgba(255,255,255,.78);
-    margin:.35rem 0 1rem 0;
-    box-shadow:0 2px 8px rgba(31,41,55,.03);
-}
-.question-topic{
-    color:#667085;
-    font-size:.88rem;
-    margin-bottom:.45rem;
-}
-.question-text{
-    color:#25324a;
-    font-size:1.22rem;
-    line-height:1.45;
-    font-weight:650;
-}
 .feedback-error{
     border-left:3px solid #c2410c;
     background:#fff7ed;
@@ -80,6 +61,95 @@ div[data-testid="stMetric"]{
 .feedback-label{
     font-weight:700;
     color:#344054;
+}
+
+
+/* Métricas superiores más pequeñas y discretas */
+div[data-testid="stMetric"]{
+    background:linear-gradient(180deg,#eaf2fb 0%,#e2edf8 100%) !important;
+    border:1px solid #c7d6e8 !important;
+    border-radius:10px !important;
+    padding:.28rem .48rem !important;
+    min-height:58px !important;
+    box-shadow:0 1px 4px rgba(31,41,55,.03) !important;
+}
+div[data-testid="stMetricLabel"]{
+    font-size:.72rem !important;
+    color:#5d6b7c !important;
+}
+div[data-testid="stMetricValue"]{
+    font-size:1.05rem !important;
+    color:#24364b !important;
+}
+
+/* Caja principal: pregunta + alternativas */
+.qa-box{
+    border:1px solid #c9d4e3;
+    border-bottom:none;
+    border-radius:14px 14px 0 0;
+    padding:16px 18px 12px 18px;
+    background:rgba(255,255,255,.86);
+    box-shadow:0 3px 10px rgba(31,41,55,.04);
+    margin:.2rem 0 0 0;
+}
+.qa-topic{
+    color:#64748b;
+    font-size:.86rem;
+    margin-bottom:.45rem;
+}
+.qa-question{
+    color:#22324a;
+    font-size:1.2rem;
+    line-height:1.42;
+    font-weight:650;
+    margin-bottom:.8rem;
+}
+div[role="radiogroup"]{
+    background:rgba(255,255,255,.86);
+    border:1px solid #c9d4e3;
+    border-top:none;
+    border-radius:0 0 14px 14px;
+    padding:.2rem .75rem .55rem .75rem;
+    box-shadow:0 3px 10px rgba(31,41,55,.04);
+    margin-top:-.35rem;
+}
+div[role="radiogroup"] label{
+    padding:.38rem .2rem !important;
+    margin:0 !important;
+}
+
+
+.status-row{
+    display:grid;
+    grid-template-columns:repeat(4, minmax(0,1fr));
+    gap:8px;
+    margin:.35rem 0 .45rem 0;
+}
+.status-card{
+    background:linear-gradient(180deg,#dceaf7 0%,#d4e3f2 100%);
+    border:1px solid #b8cadc;
+    border-radius:9px;
+    padding:6px 8px;
+    text-align:center;
+    min-height:50px;
+}
+.status-label{
+    color:#5d6b7c;
+    font-size:.68rem;
+    line-height:1.1;
+    margin-bottom:3px;
+}
+.status-value{
+    color:#23364b;
+    font-size:.98rem;
+    font-weight:700;
+    line-height:1.1;
+}
+@media(max-width:700px){
+    .status-row{gap:5px;}
+    .status-card{padding:5px 4px;min-height:46px;}
+    .status-label{font-size:.62rem;}
+    .status-value{font-size:.9rem;}
 }
 
 </style>
@@ -218,35 +288,36 @@ if st.session_state.respondidas>=TOTAL:
 
 q=next(q for q in PREGUNTAS if q["id"]==st.session_state.actual_id)
 
-m1,m2,m3,m4=st.columns(4)
-m1.metric("Pregunta",f"{st.session_state.respondidas+1}/{TOTAL}")
-m2.metric("Nivel",q["nivel"])
-m3.metric("Intento",f"{st.session_state.intento}/2")
-m4.metric("Sin repetir",len(st.session_state.usadas_global))
+st.markdown(
+    f"""
+    <div class="status-row">
+      <div class="status-card"><div class="status-label">Pregunta</div><div class="status-value">{st.session_state.respondidas+1}/{TOTAL}</div></div>
+      <div class="status-card"><div class="status-label">Nivel</div><div class="status-value">{q['nivel']}</div></div>
+      <div class="status-card"><div class="status-label">Intento</div><div class="status-value">{st.session_state.intento}/2</div></div>
+      <div class="status-card"><div class="status-label">Sin repetir</div><div class="status-value">{len(st.session_state.usadas_global)}</div></div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 st.progress(st.session_state.respondidas/TOTAL)
 
 # Two-column interaction area: question left, action right.
 left,right=st.columns([4.6,1.55], gap="large")
 
 with left:
-    st.markdown(
-        f"""
-        <div class="question-box">
-          <div class="question-topic"><strong>Tema:</strong> {q['tema']}</div>
-          <div class="question-text">{q['pregunta']}</div>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-    letras=["A","B","C","D"]
-    opciones=[f"{letras[i]}. {txt}" for i,txt in enumerate(q["alternativas"])]
-    sel=st.radio(
-        "Selecciona una alternativa:",
-        opciones,
-        index=None,
-        key=f"q_{q['id']}_i_{st.session_state.intento}",
-        disabled=st.session_state.bloqueada
-    )
+    with st.container(border=True):
+        st.caption(f"Tema: {q['tema']}")
+        st.markdown(f"### {q['pregunta']}")
+        letras=["A","B","C","D"]
+        opciones=[f"{letras[i]}. {txt}" for i,txt in enumerate(q["alternativas"])]
+        sel=st.radio(
+            "Selecciona una alternativa:",
+            opciones,
+            index=None,
+            key=f"q_{q['id']}_i_{st.session_state.intento}",
+            disabled=st.session_state.bloqueada
+        )
+
     if st.session_state.feedback:
         css_class = "feedback-ok" if st.session_state.feedback_tipo=="ok" else "feedback-error"
         st.markdown(

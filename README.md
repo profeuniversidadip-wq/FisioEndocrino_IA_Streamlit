@@ -19,3 +19,13 @@ Aplicación adaptativa basada en la clase **Sistema Endocrino 2026**.
 - Primer error: "Error porque" y segundo intento.
 - Segundo error: "Error porque", "Respuesta correcta" e "Idea clave".
 - Respuesta correcta: "Correcto" e "Idea clave".
+
+
+## Mejora visual
+- Recuadro principal con pregunta y alternativas como foco visual.
+- Indicadores Pregunta/Nivel/Intento/Sin repetir reducidos y con fondo azul grisáceo.
+- Mayor jerarquía visual y menor presencia de elementos secundarios.
+
+## Ajuste visual definitivo
+- Pregunta y alternativas dentro de un contenedor nativo con borde.
+- Indicadores superiores reemplazados por tarjetas compactas personalizadas.
