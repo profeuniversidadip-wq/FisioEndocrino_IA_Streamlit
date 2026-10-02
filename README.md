@@ -29,3 +29,9 @@ Aplicación adaptativa basada en la clase **Sistema Endocrino 2026**.
 ## Ajuste visual definitivo
 - Pregunta y alternativas dentro de un contenedor nativo con borde.
 - Indicadores superiores reemplazados por tarjetas compactas personalizadas.
+
+## Diseño compacto responsive
+- Interfaz reducida para disminuir desplazamiento vertical.
+- Tipografías, márgenes y botones más compactos.
+- Reiniciar visible en la parte superior.
+- Optimizado para PC y celular.

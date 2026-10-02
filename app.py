@@ -13,145 +13,176 @@ st.markdown("""
 <style>
 .stApp{
     background:
-      radial-gradient(circle at 15% 12%, rgba(219,234,254,.88), transparent 33%),
-      radial-gradient(circle at 88% 8%, rgba(224,242,254,.72), transparent 28%),
+      radial-gradient(circle at 15% 10%, rgba(219,234,254,.80), transparent 30%),
+      radial-gradient(circle at 90% 8%, rgba(224,242,254,.68), transparent 26%),
       linear-gradient(180deg,#f8fbff 0%,#eef5fb 100%);
 }
-.block-container{max-width:1120px;padding-top:.85rem;padding-bottom:2rem}
-h1{font-size:2rem!important;margin:.1rem 0!important;color:#1f2937!important}
-h2,h3{color:#25324a!important}
-div[data-testid="stMetric"]{
-    background:rgba(255,255,255,.82);
-    border:1px solid #d8e2ef;
-    border-radius:14px;
-    padding:.45rem .65rem;
+.block-container{
+    max-width:1080px;
+    padding-top:.35rem;
+    padding-bottom:.6rem;
 }
-.stButton>button{min-height:46px;border-radius:12px;font-size:1rem}
-.footer-box{
-    margin-top:2rem;padding-top:.85rem;border-top:1px solid #d6dfeb;
-    text-align:center;color:#667085;font-size:.88rem
+h1{
+    font-size:1.55rem!important;
+    line-height:1.08!important;
+    margin:.05rem 0 .1rem 0!important;
+    color:#1f2937!important;
+}
+h2,h3{
+    font-size:1.08rem!important;
+    line-height:1.25!important;
+    margin:.15rem 0!important;
+    color:#25324a!important;
+}
+p, label, .stMarkdown{
+    font-size:.88rem;
+}
+.stCaption{
+    font-size:.72rem!important;
+    margin-top:0!important;
+}
+.stButton>button{
+    min-height:36px!important;
+    border-radius:9px!important;
+    font-size:.84rem!important;
+    padding:.25rem .55rem!important;
+}
+div[data-testid="stPopover"] button{
+    min-height:34px!important;
+    font-size:.78rem!important;
+    padding:.2rem .45rem!important;
+}
+div[data-testid="stProgress"]{
+    margin:.15rem 0 .3rem 0!important;
+}
+div[role="radiogroup"]{
+    gap:.08rem!important;
+}
+div[role="radiogroup"] label{
+    padding:.22rem .15rem!important;
+    margin:0!important;
+    min-height:30px!important;
+}
+div[role="radiogroup"] p{
+    font-size:.84rem!important;
+    line-height:1.18!important;
+    margin:0!important;
+}
+.status-row{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:6px;
+    margin:.2rem 0 .25rem 0;
+}
+.status-card{
+    background:linear-gradient(180deg,#dceaf7 0%,#d5e4f2 100%);
+    border:1px solid #b8cadc;
+    border-radius:8px;
+    padding:4px 6px;
+    text-align:center;
+    min-height:40px;
+}
+.status-label{
+    color:#5d6b7c;
+    font-size:.60rem;
+    line-height:1.05;
+    margin-bottom:2px;
+}
+.status-value{
+    color:#23364b;
+    font-size:.84rem;
+    font-weight:700;
+    line-height:1.05;
+}
+div[data-testid="stVerticalBlockBorderWrapper"]{
+    border-radius:11px!important;
+}
+div[data-testid="stVerticalBlockBorderWrapper"] > div{
+    padding:.55rem .7rem!important;
 }
 .action-card{
-    border:1px solid #d8e2ef;
-    border-radius:16px;
-    padding:14px;
-    background:rgba(255,255,255,.76);
+    border:1px solid #cbd7e6;
+    border-radius:11px;
+    padding:8px;
+    background:rgba(255,255,255,.78);
 }
-.small-note{color:#7b879a;font-size:.82rem}
-@media(max-width:700px){
-    .block-container{padding-left:.75rem;padding-right:.75rem}
-    h1{font-size:1.55rem!important}
-    .stButton>button{font-size:.95rem}
-}
-
 .feedback-error{
     border-left:3px solid #c2410c;
     background:#fff7ed;
-    border-radius:8px;
-    padding:12px 14px;
-    margin-top:.8rem;
+    border-radius:7px;
+    padding:8px 10px;
+    margin-top:.35rem;
+    font-size:.80rem;
+    line-height:1.25;
 }
 .feedback-ok{
     border-left:3px solid #15803d;
     background:#f0fdf4;
-    border-radius:8px;
-    padding:12px 14px;
-    margin-top:.8rem;
+    border-radius:7px;
+    padding:8px 10px;
+    margin-top:.35rem;
+    font-size:.80rem;
+    line-height:1.25;
 }
 .feedback-label{
     font-weight:700;
     color:#344054;
 }
-
-
-/* Métricas superiores más pequeñas y discretas */
-div[data-testid="stMetric"]{
-    background:linear-gradient(180deg,#eaf2fb 0%,#e2edf8 100%) !important;
-    border:1px solid #c7d6e8 !important;
-    border-radius:10px !important;
-    padding:.28rem .48rem !important;
-    min-height:58px !important;
-    box-shadow:0 1px 4px rgba(31,41,55,.03) !important;
-}
-div[data-testid="stMetricLabel"]{
-    font-size:.72rem !important;
-    color:#5d6b7c !important;
-}
-div[data-testid="stMetricValue"]{
-    font-size:1.05rem !important;
-    color:#24364b !important;
-}
-
-/* Caja principal: pregunta + alternativas */
-.qa-box{
-    border:1px solid #c9d4e3;
-    border-bottom:none;
-    border-radius:14px 14px 0 0;
-    padding:16px 18px 12px 18px;
-    background:rgba(255,255,255,.86);
-    box-shadow:0 3px 10px rgba(31,41,55,.04);
-    margin:.2rem 0 0 0;
-}
-.qa-topic{
-    color:#64748b;
-    font-size:.86rem;
-    margin-bottom:.45rem;
-}
-.qa-question{
-    color:#22324a;
-    font-size:1.2rem;
-    line-height:1.42;
-    font-weight:650;
-    margin-bottom:.8rem;
-}
-div[role="radiogroup"]{
-    background:rgba(255,255,255,.86);
-    border:1px solid #c9d4e3;
-    border-top:none;
-    border-radius:0 0 14px 14px;
-    padding:.2rem .75rem .55rem .75rem;
-    box-shadow:0 3px 10px rgba(31,41,55,.04);
-    margin-top:-.35rem;
-}
-div[role="radiogroup"] label{
-    padding:.38rem .2rem !important;
-    margin:0 !important;
-}
-
-
-.status-row{
-    display:grid;
-    grid-template-columns:repeat(4, minmax(0,1fr));
-    gap:8px;
-    margin:.35rem 0 .45rem 0;
-}
-.status-card{
-    background:linear-gradient(180deg,#dceaf7 0%,#d4e3f2 100%);
-    border:1px solid #b8cadc;
-    border-radius:9px;
-    padding:6px 8px;
-    text-align:center;
-    min-height:50px;
-}
-.status-label{
-    color:#5d6b7c;
+.small-note{
+    color:#7b879a;
     font-size:.68rem;
-    line-height:1.1;
-    margin-bottom:3px;
+    line-height:1.15;
 }
-.status-value{
-    color:#23364b;
-    font-size:.98rem;
-    font-weight:700;
-    line-height:1.1;
+.footer-box{
+    margin-top:.55rem;
+    padding-top:.45rem;
+    border-top:1px solid #d6dfeb;
+    text-align:center;
+    color:#667085;
+    font-size:.68rem;
 }
 @media(max-width:700px){
-    .status-row{gap:5px;}
-    .status-card{padding:5px 4px;min-height:46px;}
-    .status-label{font-size:.62rem;}
-    .status-value{font-size:.9rem;}
+    .block-container{
+        padding:.25rem .45rem .45rem .45rem;
+    }
+    h1{
+        font-size:1.25rem!important;
+    }
+    h2,h3{
+        font-size:.98rem!important;
+    }
+    p, label, .stMarkdown{
+        font-size:.80rem;
+    }
+    .status-row{
+        gap:4px;
+    }
+    .status-card{
+        padding:3px 3px;
+        min-height:36px;
+    }
+    .status-label{
+        font-size:.55rem;
+    }
+    .status-value{
+        font-size:.78rem;
+    }
+    .stButton>button{
+        min-height:34px!important;
+        font-size:.80rem!important;
+    }
+    div[role="radiogroup"] label{
+        padding:.18rem .08rem!important;
+        min-height:28px!important;
+    }
+    div[role="radiogroup"] p{
+        font-size:.78rem!important;
+    }
+    .feedback-error,.feedback-ok{
+        font-size:.76rem;
+        padding:7px 8px;
+    }
 }
-
 </style>
 """, unsafe_allow_html=True)
 
@@ -164,8 +195,7 @@ POR_NIVEL={n:[q for q in PREGUNTAS if q["nivel"]==n] for n in range(1,5)}
 def footer():
     st.markdown("""
     <div class="footer-box">
-      <strong>Desarrollado por Cristian Barahona Videla</strong><br>
-      Uso educativo · © 2026
+      <strong>Cristian Barahona Videla</strong> · Uso educativo · © 2026
     </div>
     """, unsafe_allow_html=True)
 
@@ -231,13 +261,13 @@ def iniciar():
 init()
 
 # Header: title left, safe restart at top-right using popover confirmation.
-head1, head2 = st.columns([6,1.55], vertical_alignment="top")
+head1, head2 = st.columns([5.6,1.3], vertical_alignment="top")
 with head1:
     st.title("FisioEndocrino IA")
-    st.caption("Entrenamiento adaptativo · 10 preguntas por sesión · banco de 80 preguntas")
+    st.caption("10 preguntas por sesión · banco de 80 preguntas")
 with head2:
     if st.session_state.iniciada:
-        with st.popover("↻ Reiniciar sesión", use_container_width=True):
+        with st.popover("↻ Reiniciar", use_container_width=True):
             st.warning("Se perderá el avance de esta sesión.")
             if st.button("Confirmar reinicio", use_container_width=True):
                 reset_sesion(True)
@@ -302,12 +332,12 @@ st.markdown(
 st.progress(st.session_state.respondidas/TOTAL)
 
 # Two-column interaction area: question left, action right.
-left,right=st.columns([4.6,1.55], gap="large")
+left,right=st.columns([5.2,1.35], gap="small")
 
 with left:
     with st.container(border=True):
         st.caption(f"Tema: {q['tema']}")
-        st.markdown(f"### {q['pregunta']}")
+        st.markdown(f"**{q['pregunta']}**")
         letras=["A","B","C","D"]
         opciones=[f"{letras[i]}. {txt}" for i,txt in enumerate(q["alternativas"])]
         sel=st.radio(
@@ -327,7 +357,6 @@ with left:
 
 with right:
     st.markdown('<div class="action-card">', unsafe_allow_html=True)
-    st.markdown("**Acción**")
     if not st.session_state.bloqueada:
         responder=st.button(
             "Responder",
@@ -336,7 +365,7 @@ with right:
             disabled=(sel is None)
         )
         if st.session_state.intento==2:
-            st.caption("Segundo intento")
+            st.caption("2.º intento")
     else:
         responder=False
         if st.button("Avanzar →", use_container_width=True, type="primary"):
@@ -346,7 +375,6 @@ with right:
             st.session_state.feedback=""
             st.session_state.feedback_tipo=""
             st.rerun()
-    st.markdown('<div class="small-note">El botón de avance permanece aquí para evitar desplazamientos.</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 if responder:
