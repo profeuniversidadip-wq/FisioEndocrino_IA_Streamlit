@@ -7,13 +7,58 @@ st.set_page_config(page_title="FisioEndocrino IA", layout="centered", initial_si
 
 st.markdown("""
 <style>
-.block-container{max-width:760px;padding-top:1rem;padding-bottom:2rem}
-h1{font-size:2rem!important;margin-bottom:.2rem!important}
-.stButton>button{min-height:48px;border-radius:12px;font-size:1rem}
+.stApp {
+    background:
+      radial-gradient(circle at 15% 15%, rgba(219,234,254,.85), transparent 34%),
+      radial-gradient(circle at 85% 12%, rgba(224,242,254,.75), transparent 32%),
+      linear-gradient(180deg, #f8fbff 0%, #eef5fb 100%);
+}
+.block-container{
+    max-width:760px;
+    padding-top:1rem;
+    padding-bottom:2rem;
+}
+h1{
+    font-size:2rem!important;
+    margin-bottom:.2rem!important;
+    color:#1f2937!important;
+}
+h2,h3{color:#25324a!important;}
+div[data-testid="stMetric"]{
+    background:rgba(255,255,255,.78);
+    border:1px solid #d8e2ef;
+    border-radius:14px;
+    padding:.55rem .7rem;
+}
+.stButton>button{
+    min-height:46px;
+    border-radius:12px;
+    font-size:1rem;
+}
+button[kind="primary"]{
+    font-weight:700;
+}
+.footer-box{
+    margin-top:2.2rem;
+    padding-top:.9rem;
+    border-top:1px solid #d6dfeb;
+    text-align:center;
+    color:#667085;
+    font-size:.88rem;
+}
+.restart-note{
+    text-align:right;
+    color:#8a94a6;
+    font-size:.78rem;
+    margin-bottom:.25rem;
+}
 @media(max-width:520px){
-.block-container{padding-left:.8rem;padding-right:.8rem}
-h1{font-size:1.55rem!important}
-.stButton>button{font-size:.95rem}
+    .block-container{
+        padding-left:.8rem;
+        padding-right:.8rem;
+    }
+    h1{font-size:1.55rem!important;}
+    .stButton>button{font-size:.95rem;}
 }
 </style>
 """, unsafe_allow_html=True)
@@ -22,6 +67,14 @@ with open(Path(__file__).with_name("preguntas_endocrino.json"), encoding="utf-8"
     PREGUNTAS=json.load(f)
 POR_ID={q["id"]:q for q in PREGUNTAS}
 TOTAL=10
+
+def mostrar_footer():
+    st.markdown("""
+    <div class="footer-box">
+      <strong>Desarrollado por Cristian Barahona Videla</strong><br>
+      Uso educativo · © 2026
+    </div>
+    """, unsafe_allow_html=True)
 
 def reset(keep_name=True):
     nombre=st.session_state.get("nombre","") if keep_name else ""
@@ -69,6 +122,7 @@ if not st.session_state.iniciada:
             st.session_state.actual_id=inicio()
             st.session_state.iniciada=True
             st.rerun()
+    mostrar_footer()
     st.stop()
 
 if st.session_state.respondidas>=TOTAL:
@@ -88,6 +142,7 @@ if st.session_state.respondidas>=TOTAL:
         st.session_state.iniciada=True
         st.session_state.actual_id=inicio()
         st.rerun()
+    mostrar_footer()
     st.stop()
 
 q=POR_ID[st.session_state.actual_id]
@@ -108,13 +163,19 @@ sel=st.radio("Selecciona una alternativa:",opciones,index=None,
              key=f"q_{q['id']}_i_{st.session_state.intento}",
              disabled=st.session_state.bloqueada)
 
-col1,col2,col3=st.columns([2.2,.5,1.1])
-with col1:
-    responder=st.button("Responder",use_container_width=True,type="primary",
-                        disabled=(sel is None or st.session_state.bloqueada))
-with col3:
-    if st.button("Reiniciar",use_container_width=True):
-        reset(True); st.rerun()
+responder=st.button(
+    "Responder",
+    use_container_width=True,
+    type="primary",
+    disabled=(sel is None or st.session_state.bloqueada)
+)
+
+st.markdown('<div class="restart-note">Opciones de sesión</div>', unsafe_allow_html=True)
+_, col_reset = st.columns([4.2, 1.15])
+with col_reset:
+    if st.button("Reiniciar sesión", use_container_width=True):
+        reset(True)
+        st.rerun()
 
 if responder:
     idx=opciones.index(sel)
@@ -157,3 +218,5 @@ if st.session_state.bloqueada:
         st.rerun()
 elif st.session_state.intento==2 and st.session_state.feedback:
     st.info("Vuelve a seleccionar una alternativa y utiliza tu segundo intento.")
+
+mostrar_footer()
