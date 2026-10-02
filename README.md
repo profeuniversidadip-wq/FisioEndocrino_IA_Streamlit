@@ -1,12 +1,14 @@
 # FisioEndocrino IA
 
-Banco: 30 preguntas.
-Sesión: 10 preguntas.
-Distribución por nivel: {1: 8, 2: 8, 3: 8, 4: 6}
+Aplicación adaptativa basada en la clase **Sistema Endocrino 2026**.
 
-## Autoría
-**Desarrollado por Cristian Barahona Videla**  
-Uso educativo · © 2026
-
-## Interfaz visual
-Fondo azul claro, diseño móvil, botón de reinicio separado del flujo de respuesta y autoría visible.
+- 80 preguntas: 20 por nivel.
+- 10 preguntas por sesión.
+- 2 intentos por pregunta.
+- Retroalimentación inmediata.
+- Dificultad adaptativa.
+- Evita repetir preguntas entre sesiones consecutivas mientras se mantenga activa la sesión del navegador.
+- Interfaz de dos columnas: pregunta a la izquierda y Responder/Avanzar a la derecha.
+- Reinicio en la parte superior con confirmación.
+- Desarrollado por Cristian Barahona Videla.
+- Uso educativo · © 2026.

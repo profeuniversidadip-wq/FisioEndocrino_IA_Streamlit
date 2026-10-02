@@ -1,662 +1,1602 @@
 [
   {
     "id": 1,
-    "tema": "Función del sistema endocrino",
     "nivel": 1,
+    "tema": "Fundamentos",
     "pregunta": "¿Cuál es la función general del sistema endocrino?",
     "alternativas": [
-      "Coordinar funciones corporales mediante hormonas liberadas a la sangre",
-      "Transmitir impulsos eléctricos directamente hacia los músculos",
-      "Transportar oxígeno desde los pulmones hacia los tejidos",
-      "Generar respuestas inmunológicas frente a microorganismos"
+      "Coordinar funciones mediante hormonas transportadas por la sangre",
+      "Transmitir impulsos eléctricos exclusivamente a músculo",
+      "Transportar oxígeno hacia los tejidos",
+      "Producir anticuerpos"
     ],
     "correcta": 0,
+    "explicacionCorrecta": "El sistema endocrino coordina funciones corporales mediante hormonas que llegan a células blanco o diana.",
     "feedbackIncorrecto": [
       "",
-      "Esa función corresponde principalmente al sistema nervioso somático. El sistema endocrino utiliza hormonas como mensajeros químicos.",
-      "El transporte de oxígeno es una función del sistema cardiovascular y de la hemoglobina.",
-      "La defensa frente a microorganismos corresponde principalmente al sistema inmunitario."
-    ],
-    "explicacionCorrecta": "El sistema endocrino regula procesos como crecimiento, metabolismo, reproducción y homeostasis mediante hormonas.",
-    "siguienteSiAcierta": 2,
-    "siguienteSiFalla": 5
+      "No corresponde. El sistema endocrino coordina funciones corporales mediante hormonas que llegan a células blanco o diana.",
+      "No corresponde. El sistema endocrino coordina funciones corporales mediante hormonas que llegan a células blanco o diana.",
+      "No corresponde. El sistema endocrino coordina funciones corporales mediante hormonas que llegan a células blanco o diana."
+    ]
   },
   {
     "id": 2,
-    "tema": "Función del sistema endocrino",
-    "nivel": 2,
-    "pregunta": "¿Qué característica distingue principalmente a la comunicación endocrina?",
+    "nivel": 1,
+    "tema": "Hormonas",
+    "pregunta": "¿Cómo se denominan las células que responden específicamente a una hormona?",
     "alternativas": [
-      "Las señales se transmiten exclusivamente entre neuronas",
-      "Las hormonas pueden viajar por la sangre hasta células diana alejadas",
-      "La señal siempre actúa sobre todas las células del organismo",
-      "Las hormonas producen respuestas exclusivamente inmediatas"
+      "Células madre",
+      "Células diana o blanco",
+      "Células epiteliales exclusivamente",
+      "Células sanguíneas"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "Una célula diana posee receptores apropiados para responder a una hormona.",
     "feedbackIncorrecto": [
-      "La transmisión entre neuronas corresponde a comunicación nerviosa, no endocrina.",
+      "No corresponde. Una célula diana posee receptores apropiados para responder a una hormona.",
       "",
-      "Una hormona actúa principalmente sobre células que poseen receptores apropiados.",
-      "Las respuestas endocrinas pueden ser rápidas o lentas; muchas tienen efectos prolongados."
-    ],
-    "explicacionCorrecta": "En la señalización endocrina, las hormonas se liberan al medio interno y pueden alcanzar tejidos alejados mediante la circulación.",
-    "siguienteSiAcierta": 3,
-    "siguienteSiFalla": 1
+      "No corresponde. Una célula diana posee receptores apropiados para responder a una hormona.",
+      "No corresponde. Una célula diana posee receptores apropiados para responder a una hormona."
+    ]
   },
   {
     "id": 3,
-    "tema": "Función del sistema endocrino",
-    "nivel": 3,
-    "pregunta": "Una hormona se encuentra elevada en sangre, pero un tejido determinado no responde. ¿Cuál es una explicación fisiológica posible?",
+    "nivel": 1,
+    "tema": "Glándulas",
+    "pregunta": "¿Qué caracteriza a una glándula endocrina?",
     "alternativas": [
-      "El tejido carece de receptores funcionales para esa hormona",
-      "Toda hormona necesita ingresar directamente al núcleo celular",
-      "La hormona solo puede actuar cerca de la glándula que la produce",
-      "La circulación sanguínea impide que las hormonas alcancen los tejidos"
+      "Libera su producto a través de un conducto",
+      "Vierte hormonas al torrente sanguíneo",
+      "Solo produce enzimas digestivas",
+      "No posee tejido epitelial"
     ],
-    "correcta": 0,
+    "correcta": 1,
+    "explicacionCorrecta": "Las glándulas endocrinas liberan hormonas hacia el medio interno y la sangre.",
     "feedbackIncorrecto": [
+      "No corresponde. Las glándulas endocrinas liberan hormonas hacia el medio interno y la sangre.",
       "",
-      "No todas las hormonas actúan mediante receptores nucleares; muchas utilizan receptores de membrana.",
-      "Eso corresponde más a una señalización local. Las hormonas endocrinas pueden actuar a distancia.",
-      "Precisamente la circulación permite distribuir muchas hormonas hacia sus tejidos diana."
-    ],
-    "explicacionCorrecta": "La presencia de una hormona no garantiza respuesta. La célula debe poseer receptores funcionales y una vía de señalización adecuada.",
-    "siguienteSiAcierta": 4,
-    "siguienteSiFalla": 2
+      "No corresponde. Las glándulas endocrinas liberan hormonas hacia el medio interno y la sangre.",
+      "No corresponde. Las glándulas endocrinas liberan hormonas hacia el medio interno y la sangre."
+    ]
   },
   {
     "id": 4,
-    "tema": "Función del sistema endocrino",
-    "nivel": 4,
-    "pregunta": "Un paciente presenta concentraciones normales de una hormona, pero manifiesta signos compatibles con déficit de su acción. ¿Qué alteración explica mejor este hallazgo?",
+    "nivel": 1,
+    "tema": "Glándulas",
+    "pregunta": "¿Qué caracteriza a una glándula exocrina?",
     "alternativas": [
-      "Aumento de la filtración renal de agua",
-      "Alteración del receptor o de la señalización intracelular",
-      "Aumento inespecífico del flujo sanguíneo",
-      "Disminución de la actividad de todas las glándulas endocrinas"
+      "Libera sustancias mediante conductos",
+      "Solo secreta hormonas",
+      "Secreta exclusivamente a la sangre",
+      "Carece de epitelio secretor"
     ],
-    "correcta": 1,
+    "correcta": 0,
+    "explicacionCorrecta": "Las glándulas exocrinas vierten sus secreciones a través de conductos hacia una cavidad o el exterior.",
     "feedbackIncorrecto": [
-      "Ese fenómeno no explica por sí mismo una pérdida selectiva de acción hormonal.",
       "",
-      "El flujo sanguíneo puede modificar la distribución, pero no explica adecuadamente una resistencia hormonal específica.",
-      "Si la concentración de la hormona estudiada es normal, una falla global de todas las glándulas no es la explicación más coherente."
-    ],
-    "explicacionCorrecta": "Una alteración del receptor o de los mecanismos posteriores al receptor puede producir resistencia hormonal aun con concentraciones plasmáticas normales.",
-    "siguienteSiAcierta": 6,
-    "siguienteSiFalla": 2
+      "No corresponde. Las glándulas exocrinas vierten sus secreciones a través de conductos hacia una cavidad o el exterior.",
+      "No corresponde. Las glándulas exocrinas vierten sus secreciones a través de conductos hacia una cavidad o el exterior.",
+      "No corresponde. Las glándulas exocrinas vierten sus secreciones a través de conductos hacia una cavidad o el exterior."
+    ]
   },
   {
     "id": 5,
-    "tema": "Función del sistema endocrino",
     "nivel": 1,
-    "pregunta": "Las sustancias químicas producidas por las glándulas endocrinas se denominan:",
+    "tema": "Glándulas",
+    "pregunta": "¿Cuál de las siguientes es una glándula anficrina o mixta?",
     "alternativas": [
-      "Enzimas",
-      "Neurofilamentos",
-      "Hormonas",
-      "Anticuerpos"
+      "Tiroides",
+      "Hipófisis",
+      "Páncreas",
+      "Paratiroides"
     ],
     "correcta": 2,
+    "explicacionCorrecta": "El páncreas posee función endocrina y exocrina.",
     "feedbackIncorrecto": [
-      "Las enzimas catalizan reacciones químicas, pero no constituyen por definición los mensajeros endocrinos.",
-      "Los neurofilamentos son componentes estructurales de las neuronas.",
+      "No corresponde. El páncreas posee función endocrina y exocrina.",
+      "No corresponde. El páncreas posee función endocrina y exocrina.",
       "",
-      "Los anticuerpos son proteínas producidas por células del sistema inmunitario."
-    ],
-    "explicacionCorrecta": "Las hormonas son mensajeros químicos producidos por células endocrinas y liberados hacia el medio interno.",
-    "siguienteSiAcierta": 2,
-    "siguienteSiFalla": 5
+      "No corresponde. El páncreas posee función endocrina y exocrina."
+    ]
   },
   {
     "id": 6,
-    "tema": "Célula diana y receptor",
     "nivel": 1,
-    "pregunta": "¿Qué característica permite que una célula responda específicamente a una hormona?",
+    "tema": "Hipotálamo",
+    "pregunta": "¿Qué estructura integra funciones nerviosas y endocrinas y regula hambre, sed y temperatura?",
     "alternativas": [
-      "Poseer un receptor capaz de reconocerla",
-      "Encontrarse próxima a cualquier vaso sanguíneo",
-      "Tener un núcleo de gran tamaño",
-      "Producir necesariamente la misma hormona"
+      "Cerebelo",
+      "Hipotálamo",
+      "Médula espinal",
+      "Tálamo"
     ],
-    "correcta": 0,
+    "correcta": 1,
+    "explicacionCorrecta": "El hipotálamo es un centro integrador neuroendocrino del diencéfalo.",
     "feedbackIncorrecto": [
+      "No corresponde. El hipotálamo es un centro integrador neuroendocrino del diencéfalo.",
       "",
-      "Estar cerca de un vaso favorece el acceso, pero no determina la especificidad de la respuesta.",
-      "El tamaño del núcleo no determina la sensibilidad hormonal.",
-      "Una célula diana no necesita producir la hormona para responder a ella."
-    ],
-    "explicacionCorrecta": "La especificidad hormonal depende principalmente de la presencia y funcionalidad de receptores adecuados.",
-    "siguienteSiAcierta": 7,
-    "siguienteSiFalla": 5
+      "No corresponde. El hipotálamo es un centro integrador neuroendocrino del diencéfalo.",
+      "No corresponde. El hipotálamo es un centro integrador neuroendocrino del diencéfalo."
+    ]
   },
   {
     "id": 7,
-    "tema": "Célula diana y receptor",
-    "nivel": 2,
-    "pregunta": "Dos tejidos reciben la misma concentración de una hormona, pero solo uno modifica su actividad. ¿Cuál es la explicación más probable?",
+    "nivel": 1,
+    "tema": "Hipófisis",
+    "pregunta": "¿Cómo se denomina el tallo que conecta hipotálamo e hipófisis?",
     "alternativas": [
-      "La sangre transportó hormonas diferentes hacia cada tejido",
-      "Solo uno de los tejidos posee receptores adecuados",
-      "Las hormonas actúan aleatoriamente sobre los órganos",
-      "La hormona desaparece inmediatamente después de salir de la glándula"
+      "Quiasma",
+      "Infundíbulo",
+      "Acueducto",
+      "Pedúnculo cerebeloso"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "El infundíbulo conecta anatómica y funcionalmente hipotálamo e hipófisis.",
     "feedbackIncorrecto": [
-      "Ambos tejidos están expuestos a la misma hormona según el enunciado.",
+      "No corresponde. El infundíbulo conecta anatómica y funcionalmente hipotálamo e hipófisis.",
       "",
-      "La acción hormonal es selectiva y depende de receptores y vías de señalización.",
-      "Las hormonas pueden mantenerse circulantes durante períodos variables antes de ser metabolizadas."
-    ],
-    "explicacionCorrecta": "La presencia del receptor determina qué células pueden reconocer y responder a una hormona.",
-    "siguienteSiAcierta": 8,
-    "siguienteSiFalla": 6
+      "No corresponde. El infundíbulo conecta anatómica y funcionalmente hipotálamo e hipófisis.",
+      "No corresponde. El infundíbulo conecta anatómica y funcionalmente hipotálamo e hipófisis."
+    ]
   },
   {
     "id": 8,
-    "tema": "Célula diana y receptor",
-    "nivel": 3,
-    "pregunta": "Si disminuye progresivamente el número de receptores de una hormona en una célula, manteniéndose constante la concentración hormonal, ¿qué podría ocurrir?",
+    "nivel": 1,
+    "tema": "Hipófisis",
+    "pregunta": "¿Dónde se encuentra protegida la hipófisis?",
     "alternativas": [
-      "Aumentaría necesariamente la secreción de todas las hormonas",
-      "La célula podría disminuir su respuesta a esa hormona",
-      "La hormona se transformaría automáticamente en otra",
-      "La célula comenzaría a responder a cualquier hormona circulante"
+      "Silla turca del esfenoides",
+      "Foramen magno",
+      "Seno frontal",
+      "Conducto vertebral"
     ],
-    "correcta": 1,
+    "correcta": 0,
+    "explicacionCorrecta": "La hipófisis se aloja en la silla turca del hueso esfenoides.",
     "feedbackIncorrecto": [
-      "La regulación de receptores no implica automáticamente el aumento de todas las hormonas.",
       "",
-      "La disminución de receptores modifica la sensibilidad celular, no transforma químicamente la hormona.",
-      "Los receptores conservan especificidad; disminuir uno no genera sensibilidad indiscriminada."
-    ],
-    "explicacionCorrecta": "Una reducción de receptores puede disminuir la sensibilidad de la célula y, por tanto, su respuesta a una concentración hormonal determinada.",
-    "siguienteSiAcierta": 9,
-    "siguienteSiFalla": 7
+      "No corresponde. La hipófisis se aloja en la silla turca del hueso esfenoides.",
+      "No corresponde. La hipófisis se aloja en la silla turca del hueso esfenoides.",
+      "No corresponde. La hipófisis se aloja en la silla turca del hueso esfenoides."
+    ]
   },
   {
     "id": 9,
-    "tema": "Hipotálamo e hipófisis",
     "nivel": 1,
-    "pregunta": "¿Qué estructura conecta funcionalmente al sistema nervioso con el sistema endocrino?",
+    "tema": "Hipófisis",
+    "pregunta": "¿Qué lóbulo hipofisario sintetiza y secreta varias hormonas?",
     "alternativas": [
-      "Hipotálamo",
-      "Cerebelo",
-      "Médula espinal",
-      "Corteza occipital"
+      "Neurohipófisis",
+      "Adenohipófisis",
+      "Epífisis",
+      "Médula suprarrenal"
     ],
-    "correcta": 0,
+    "correcta": 1,
+    "explicacionCorrecta": "La adenohipófisis sintetiza y secreta varias hormonas.",
     "feedbackIncorrecto": [
+      "No corresponde. La adenohipófisis sintetiza y secreta varias hormonas.",
       "",
-      "El cerebelo participa principalmente en coordinación motora y equilibrio.",
-      "La médula espinal transmite información nerviosa, pero no es el principal centro integrador neuroendocrino.",
-      "La corteza occipital está asociada principalmente con el procesamiento visual."
-    ],
-    "explicacionCorrecta": "El hipotálamo integra señales nerviosas y regula gran parte de la actividad endocrina mediante su relación con la hipófisis.",
-    "siguienteSiAcierta": 10,
-    "siguienteSiFalla": 9
+      "No corresponde. La adenohipófisis sintetiza y secreta varias hormonas.",
+      "No corresponde. La adenohipófisis sintetiza y secreta varias hormonas."
+    ]
   },
   {
     "id": 10,
-    "tema": "Hipófisis",
     "nivel": 1,
-    "pregunta": "La hipófisis se localiza:",
+    "tema": "Hipófisis",
+    "pregunta": "¿Qué función principal cumple la neurohipófisis según la clase?",
     "alternativas": [
-      "En la cavidad torácica",
-      "En la silla turca del hueso esfenoides",
-      "En la región posterior del cerebelo",
-      "Sobre la glándula tiroides"
+      "Sintetizar TSH",
+      "Almacenar y liberar hormonas hipotalámicas",
+      "Producir T3 y T4",
+      "Secretar insulina"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "La neurohipófisis almacena y libera hormonas producidas en el hipotálamo.",
     "feedbackIncorrecto": [
-      "La hipófisis se encuentra en la cavidad craneal, no en el tórax.",
+      "No corresponde. La neurohipófisis almacena y libera hormonas producidas en el hipotálamo.",
       "",
-      "No está ubicada en el cerebelo.",
-      "La hipófisis se encuentra en la base del encéfalo y no sobre la tiroides."
-    ],
-    "explicacionCorrecta": "La hipófisis está situada en la silla turca del hueso esfenoides y se conecta con el hipotálamo mediante el tallo hipofisario.",
-    "siguienteSiAcierta": 11,
-    "siguienteSiFalla": 9
+      "No corresponde. La neurohipófisis almacena y libera hormonas producidas en el hipotálamo.",
+      "No corresponde. La neurohipófisis almacena y libera hormonas producidas en el hipotálamo."
+    ]
   },
   {
     "id": 11,
-    "tema": "Adenohipófisis",
-    "nivel": 2,
-    "pregunta": "¿Cuál de las siguientes hormonas es secretada por la adenohipófisis?",
+    "nivel": 1,
+    "tema": "Hormonas tróficas",
+    "pregunta": "¿Cuál de las siguientes es una hormona trófica?",
     "alternativas": [
-      "ADH",
-      "Oxitocina",
-      "TSH",
-      "Melatonina"
+      "ACTH",
+      "Prolactina",
+      "Insulina",
+      "Calcitonina"
     ],
-    "correcta": 2,
+    "correcta": 0,
+    "explicacionCorrecta": "ACTH es trófica porque estimula otra glándula endocrina: la corteza suprarrenal.",
     "feedbackIncorrecto": [
-      "La ADH se sintetiza en el hipotálamo y se libera desde la neurohipófisis.",
-      "La oxitocina se sintetiza en el hipotálamo y se libera desde la neurohipófisis.",
       "",
-      "La melatonina es producida principalmente por la glándula pineal."
-    ],
-    "explicacionCorrecta": "La adenohipófisis secreta, entre otras, TSH, ACTH, GH, prolactina, FSH y LH.",
-    "siguienteSiAcierta": 12,
-    "siguienteSiFalla": 10
+      "No corresponde. ACTH es trófica porque estimula otra glándula endocrina: la corteza suprarrenal.",
+      "No corresponde. ACTH es trófica porque estimula otra glándula endocrina: la corteza suprarrenal.",
+      "No corresponde. ACTH es trófica porque estimula otra glándula endocrina: la corteza suprarrenal."
+    ]
   },
   {
     "id": 12,
-    "tema": "Neurohipófisis",
-    "nivel": 2,
-    "pregunta": "¿Qué afirmación describe correctamente a la neurohipófisis?",
+    "nivel": 1,
+    "tema": "Tiroides",
+    "pregunta": "¿Qué elemento utiliza la tiroides para fabricar hormonas tiroideas?",
     "alternativas": [
-      "Sintetiza TSH y ACTH",
-      "Produce hormonas tiroideas",
-      "Almacena y libera ADH y oxitocina sintetizadas en el hipotálamo",
-      "Controla directamente la secreción de insulina"
+      "Hierro",
+      "Yodo",
+      "Calcio",
+      "Sodio"
     ],
-    "correcta": 2,
+    "correcta": 1,
+    "explicacionCorrecta": "El yodo es necesario para la síntesis de T3 y T4.",
     "feedbackIncorrecto": [
-      "TSH y ACTH son secretadas por la adenohipófisis.",
-      "Las hormonas tiroideas son producidas por la glándula tiroides.",
+      "No corresponde. El yodo es necesario para la síntesis de T3 y T4.",
       "",
-      "La secreción de insulina depende principalmente de la glucemia y de las células beta pancreáticas."
-    ],
-    "explicacionCorrecta": "La neurohipófisis no sintetiza ADH ni oxitocina; ambas se producen en neuronas hipotalámicas y luego se almacenan y liberan desde la neurohipófisis.",
-    "siguienteSiAcierta": 13,
-    "siguienteSiFalla": 11
+      "No corresponde. El yodo es necesario para la síntesis de T3 y T4.",
+      "No corresponde. El yodo es necesario para la síntesis de T3 y T4."
+    ]
   },
   {
     "id": 13,
-    "tema": "Eje hipotálamo-hipófisis-tiroides",
-    "nivel": 3,
-    "pregunta": "Si disminuyen significativamente las concentraciones de hormonas tiroideas en sangre, ¿qué respuesta fisiológica sería esperable en un eje hipotálamo-hipófisis-tiroides intacto?",
+    "nivel": 1,
+    "tema": "Tiroides",
+    "pregunta": "¿Qué células tiroideas producen calcitonina?",
     "alternativas": [
-      "Disminución de TRH y TSH",
-      "Aumento de TRH y TSH",
-      "Aumento de insulina y disminución de TSH",
-      "Supresión completa de la actividad hipotalámica"
+      "Células beta",
+      "Células C o parafoliculares",
+      "Células alfa",
+      "Células corticotropas"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "Las células C o parafoliculares producen calcitonina.",
     "feedbackIncorrecto": [
-      "Cuando disminuyen T3 y T4 se reduce la retroalimentación negativa, por lo que TRH y TSH tienden a aumentar.",
+      "No corresponde. Las células C o parafoliculares producen calcitonina.",
       "",
-      "La insulina no regula directamente este eje.",
-      "La disminución de hormonas tiroideas estimula, en lugar de suprimir, el eje regulador."
-    ],
-    "explicacionCorrecta": "La disminución de T3 y T4 reduce la retroalimentación negativa sobre hipotálamo e hipófisis, favoreciendo el aumento de TRH y TSH.",
-    "siguienteSiAcierta": 14,
-    "siguienteSiFalla": 11
+      "No corresponde. Las células C o parafoliculares producen calcitonina.",
+      "No corresponde. Las células C o parafoliculares producen calcitonina."
+    ]
   },
   {
     "id": 14,
-    "tema": "Retroalimentación endocrina",
-    "nivel": 3,
-    "pregunta": "Un aumento sostenido de cortisol normalmente provoca disminución de ACTH. ¿Qué mecanismo explica este fenómeno?",
+    "nivel": 1,
+    "tema": "Paratiroides",
+    "pregunta": "¿Qué hormona secretan las glándulas paratiroides?",
     "alternativas": [
-      "Retroalimentación positiva",
-      "Difusión simple entre glándulas",
-      "Retroalimentación negativa",
-      "Estimulación parasimpática directa"
+      "TSH",
+      "PTH",
+      "ACTH",
+      "GH"
     ],
-    "correcta": 2,
+    "correcta": 1,
+    "explicacionCorrecta": "Las paratiroides secretan hormona paratiroidea o PTH.",
     "feedbackIncorrecto": [
-      "La retroalimentación positiva amplifica una respuesta; aquí ocurre inhibición del eje.",
-      "La relación entre cortisol y ACTH depende de regulación hormonal, no de difusión directa entre glándulas.",
+      "No corresponde. Las paratiroides secretan hormona paratiroidea o PTH.",
       "",
-      "El control principal del eje hipotálamo-hipófisis-suprarrenal no depende de estimulación parasimpática directa."
-    ],
-    "explicacionCorrecta": "El cortisol ejerce retroalimentación negativa sobre hipotálamo e hipófisis, reduciendo CRH y ACTH.",
-    "siguienteSiAcierta": 15,
-    "siguienteSiFalla": 13
+      "No corresponde. Las paratiroides secretan hormona paratiroidea o PTH.",
+      "No corresponde. Las paratiroides secretan hormona paratiroidea o PTH."
+    ]
   },
   {
     "id": 15,
-    "tema": "Ejes endocrinos",
-    "nivel": 4,
-    "pregunta": "Un paciente presenta T4 baja y TSH elevada. ¿Cuál es la interpretación fisiológica más coherente?",
+    "nivel": 1,
+    "tema": "Suprarrenales",
+    "pregunta": "¿Dónde se ubican las glándulas suprarrenales?",
     "alternativas": [
-      "La hipófisis está respondiendo a una disminución de hormonas tiroideas",
-      "Existe necesariamente una falla primaria de la hipófisis",
-      "La elevada TSH inhibe por completo la tiroides",
-      "La T4 baja demuestra exceso de función tiroidea"
+      "Detrás del estómago",
+      "Sobre el polo superior de los riñones",
+      "En la silla turca",
+      "En la cara anterior de la tráquea"
     ],
-    "correcta": 0,
+    "correcta": 1,
+    "explicacionCorrecta": "Las suprarrenales se ubican sobre el polo superior de los riñones.",
     "feedbackIncorrecto": [
+      "No corresponde. Las suprarrenales se ubican sobre el polo superior de los riñones.",
       "",
-      "Una TSH elevada indica que la hipófisis conserva capacidad de respuesta; una falla hipofisaria suele asociarse a TSH inapropiadamente baja o normal.",
-      "La función principal de TSH es estimular la glándula tiroides.",
-      "Una T4 disminuida indica reducción de disponibilidad hormonal, no exceso."
-    ],
-    "explicacionCorrecta": "T4 baja con TSH elevada es compatible con una respuesta compensatoria de la hipófisis frente a una disminución de producción tiroidea.",
-    "siguienteSiAcierta": 16,
-    "siguienteSiFalla": 13
+      "No corresponde. Las suprarrenales se ubican sobre el polo superior de los riñones.",
+      "No corresponde. Las suprarrenales se ubican sobre el polo superior de los riñones."
+    ]
   },
   {
     "id": 16,
-    "tema": "Glándula tiroides",
     "nivel": 1,
-    "pregunta": "¿Cuál es una función principal de las hormonas tiroideas T3 y T4?",
+    "tema": "Suprarrenales",
+    "pregunta": "¿Qué secreta principalmente la médula suprarrenal?",
     "alternativas": [
-      "Regular el metabolismo energético",
-      "Producir anticuerpos",
-      "Iniciar directamente la coagulación",
-      "Transportar oxígeno"
+      "T3 y T4",
+      "Catecolaminas",
+      "Insulina y glucagón",
+      "PTH"
     ],
-    "correcta": 0,
+    "correcta": 1,
+    "explicacionCorrecta": "La médula suprarrenal secreta adrenalina y noradrenalina.",
     "feedbackIncorrecto": [
+      "No corresponde. La médula suprarrenal secreta adrenalina y noradrenalina.",
       "",
-      "La producción de anticuerpos corresponde al sistema inmunitario.",
-      "La coagulación depende principalmente de plaquetas y factores plasmáticos.",
-      "El oxígeno es transportado principalmente por la hemoglobina."
-    ],
-    "explicacionCorrecta": "T3 y T4 participan en la regulación del metabolismo, consumo energético, crecimiento y desarrollo.",
-    "siguienteSiAcierta": 17,
-    "siguienteSiFalla": 16
+      "No corresponde. La médula suprarrenal secreta adrenalina y noradrenalina.",
+      "No corresponde. La médula suprarrenal secreta adrenalina y noradrenalina."
+    ]
   },
   {
     "id": 17,
-    "tema": "Paratiroides",
-    "nivel": 2,
-    "pregunta": "¿Qué cambio estimula normalmente la secreción de hormona paratiroidea (PTH)?",
+    "nivel": 1,
+    "tema": "Suprarrenales",
+    "pregunta": "¿Qué hormona mineralocorticoide se destaca en la corteza suprarrenal?",
     "alternativas": [
-      "Aumento de calcio plasmático",
-      "Disminución de calcio plasmático",
-      "Aumento de glucosa plasmática",
-      "Disminución de sodio únicamente"
+      "Aldosterona",
+      "Insulina",
+      "Melatonina",
+      "Calcitonina"
     ],
-    "correcta": 1,
+    "correcta": 0,
+    "explicacionCorrecta": "La aldosterona es el mineralocorticoide destacado en la clase.",
     "feedbackIncorrecto": [
-      "El aumento del calcio tiende a disminuir la secreción de PTH.",
       "",
-      "La glucemia no constituye el estímulo principal para la secreción de PTH.",
-      "La regulación de PTH depende principalmente de la concentración de calcio."
-    ],
-    "explicacionCorrecta": "Una disminución del calcio plasmático estimula la secreción de PTH, que contribuye a recuperar la calcemia.",
-    "siguienteSiAcierta": 18,
-    "siguienteSiFalla": 16
+      "No corresponde. La aldosterona es el mineralocorticoide destacado en la clase.",
+      "No corresponde. La aldosterona es el mineralocorticoide destacado en la clase.",
+      "No corresponde. La aldosterona es el mineralocorticoide destacado en la clase."
+    ]
   },
   {
     "id": 18,
-    "tema": "Integración endocrina",
-    "nivel": 4,
-    "pregunta": "Si una glándula endocrina periférica deja de responder a la hormona trófica proveniente de la hipófisis, ¿qué patrón podría aparecer?",
+    "nivel": 1,
+    "tema": "Páncreas",
+    "pregunta": "¿Qué células pancreáticas producen insulina?",
     "alternativas": [
-      "Hormona hipofisaria baja y hormona periférica alta",
-      "Hormona hipofisaria elevada y hormona periférica disminuida",
-      "Ambas hormonas necesariamente elevadas",
-      "Ausencia total de cambios debido a la homeostasis"
+      "Alfa",
+      "Beta",
+      "C",
+      "Foliculares"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "Las células beta pancreáticas producen insulina.",
     "feedbackIncorrecto": [
-      "Si la hormona periférica cae, disminuye la retroalimentación negativa y la hormona hipofisaria suele aumentar.",
+      "No corresponde. Las células beta pancreáticas producen insulina.",
       "",
-      "La glándula periférica resistente no necesariamente puede aumentar su producción hormonal.",
-      "La homeostasis intenta compensar la alteración, por lo que sí pueden producirse cambios hormonales."
-    ],
-    "explicacionCorrecta": "La falla de una glándula periférica puede disminuir su hormona final y, al perderse la retroalimentación negativa, aumentar la hormona trófica hipofisaria.",
-    "siguienteSiAcierta": 19,
-    "siguienteSiFalla": 13
+      "No corresponde. Las células beta pancreáticas producen insulina.",
+      "No corresponde. Las células beta pancreáticas producen insulina."
+    ]
   },
   {
     "id": 19,
-    "tema": "Tipos de hormonas",
     "nivel": 1,
-    "pregunta": "¿Cuál de las siguientes corresponde a una hormona esteroidea?",
+    "tema": "Páncreas",
+    "pregunta": "¿Qué células pancreáticas producen glucagón?",
     "alternativas": [
-      "Insulina",
-      "Cortisol",
-      "ADH",
-      "Glucagón"
+      "Alfa",
+      "Beta",
+      "Parafoliculares",
+      "Tirotróficas"
     ],
-    "correcta": 1,
+    "correcta": 0,
+    "explicacionCorrecta": "Las células alfa pancreáticas producen glucagón.",
     "feedbackIncorrecto": [
-      "La insulina es una hormona peptídica.",
       "",
-      "La ADH es una hormona peptídica.",
-      "El glucagón es una hormona peptídica."
-    ],
-    "explicacionCorrecta": "El cortisol es una hormona esteroidea derivada del colesterol.",
-    "siguienteSiAcierta": 20,
-    "siguienteSiFalla": 19
+      "No corresponde. Las células alfa pancreáticas producen glucagón.",
+      "No corresponde. Las células alfa pancreáticas producen glucagón.",
+      "No corresponde. Las células alfa pancreáticas producen glucagón."
+    ]
   },
   {
     "id": 20,
-    "tema": "Tipos de hormonas",
     "nivel": 1,
-    "pregunta": "Las hormonas peptídicas se caracterizan principalmente por:",
+    "tema": "Gónadas",
+    "pregunta": "¿Cuál es el principal andrógeno producido por los testículos?",
     "alternativas": [
-      "Ser liposolubles y atravesar libremente la membrana",
-      "Unirse siempre a receptores nucleares",
-      "Ser hidrosolubles y actuar habitualmente mediante receptores de membrana",
-      "Circular exclusivamente unidas a proteínas transportadoras"
+      "Progesterona",
+      "Testosterona",
+      "Aldosterona",
+      "Tiroxina"
     ],
-    "correcta": 2,
+    "correcta": 1,
+    "explicacionCorrecta": "La testosterona es el andrógeno principal destacado en la clase.",
     "feedbackIncorrecto": [
-      "Esta característica corresponde principalmente a hormonas liposolubles.",
-      "Las hormonas peptídicas suelen utilizar receptores de membrana.",
+      "No corresponde. La testosterona es el andrógeno principal destacado en la clase.",
       "",
-      "Muchas hormonas peptídicas circulan principalmente libres en plasma."
-    ],
-    "explicacionCorrecta": "Las hormonas peptídicas son hidrosolubles y normalmente activan receptores ubicados en la membrana celular.",
-    "siguienteSiAcierta": 21,
-    "siguienteSiFalla": 19
+      "No corresponde. La testosterona es el andrógeno principal destacado en la clase.",
+      "No corresponde. La testosterona es el andrógeno principal destacado en la clase."
+    ]
   },
   {
     "id": 21,
-    "tema": "Receptores hormonales",
     "nivel": 2,
-    "pregunta": "Una hormona que no puede atravesar fácilmente la bicapa lipídica ejercerá normalmente su efecto mediante:",
+    "tema": "Sistema nervioso vs endocrino",
+    "pregunta": "¿Qué diferencia describe mejor al sistema endocrino frente al sistema nervioso?",
     "alternativas": [
-      "Un receptor intracelular exclusivamente nuclear",
-      "Un receptor ubicado en la membrana plasmática",
-      "La unión directa al ADN sin receptor",
-      "La destrucción de la membrana celular"
+      "Sus respuestas suelen comenzar en milisegundos y durar muy poco",
+      "Sus mensajeros viajan por sangre y sus efectos suelen durar más",
+      "Solo actúa sobre músculos",
+      "No utiliza receptores"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "El sistema endocrino distribuye hormonas por sangre y suele tener una acción más lenta y prolongada.",
     "feedbackIncorrecto": [
-      "Los receptores intracelulares son más característicos de hormonas liposolubles.",
+      "No corresponde. El sistema endocrino distribuye hormonas por sangre y suele tener una acción más lenta y prolongada.",
       "",
-      "Las hormonas necesitan mecanismos específicos de reconocimiento para producir una respuesta.",
-      "La señalización hormonal no requiere destruir la membrana."
-    ],
-    "explicacionCorrecta": "Las hormonas hidrosolubles utilizan receptores de membrana que activan mecanismos de señalización intracelular.",
-    "siguienteSiAcierta": 22,
-    "siguienteSiFalla": 20
+      "No corresponde. El sistema endocrino distribuye hormonas por sangre y suele tener una acción más lenta y prolongada.",
+      "No corresponde. El sistema endocrino distribuye hormonas por sangre y suele tener una acción más lenta y prolongada."
+    ]
   },
   {
     "id": 22,
-    "tema": "Receptores hormonales",
     "nivel": 2,
-    "pregunta": "¿Qué grupo hormonal utiliza con mayor frecuencia receptores intracelulares?",
+    "tema": "Sistema nervioso vs endocrino",
+    "pregunta": "¿Qué semejanza comparten sistema nervioso y endocrino?",
     "alternativas": [
-      "Hormonas esteroideas",
-      "Hormonas peptídicas",
-      "Catecolaminas en general",
-      "Hormonas proteicas de gran tamaño"
+      "Ambos usan mensajeros químicos y receptores específicos",
+      "Ambos actúan solo a través de sinapsis",
+      "Ambos liberan exclusivamente hormonas",
+      "Ambos responden siempre en milisegundos"
     ],
     "correcta": 0,
+    "explicacionCorrecta": "Ambos sistemas utilizan mensajeros químicos que interactúan con receptores específicos.",
     "feedbackIncorrecto": [
       "",
-      "Las hormonas peptídicas utilizan principalmente receptores de membrana.",
-      "Las catecolaminas actúan principalmente mediante receptores de membrana.",
-      "Las proteínas grandes no atraviesan libremente la bicapa lipídica."
-    ],
-    "explicacionCorrecta": "Las hormonas esteroideas atraviesan la membrana y se unen a receptores intracelulares citoplasmáticos o nucleares.",
-    "siguienteSiAcierta": 23,
-    "siguienteSiFalla": 21
+      "No corresponde. Ambos sistemas utilizan mensajeros químicos que interactúan con receptores específicos.",
+      "No corresponde. Ambos sistemas utilizan mensajeros químicos que interactúan con receptores específicos.",
+      "No corresponde. Ambos sistemas utilizan mensajeros químicos que interactúan con receptores específicos."
+    ]
   },
   {
     "id": 23,
-    "tema": "Mecanismo de acción hormonal",
     "nivel": 2,
-    "pregunta": "¿Cuál es la función principal de un segundo mensajero en la señalización hormonal?",
+    "tema": "Noradrenalina",
+    "pregunta": "¿Por qué la noradrenalina puede considerarse neurotransmisor y hormona?",
     "alternativas": [
-      "Transportar la hormona por la sangre",
-      "Transmitir y amplificar la señal dentro de la célula",
-      "Sintetizar directamente la hormona",
-      "Eliminar receptores de la membrana"
+      "Porque siempre se libera desde la tiroides",
+      "Porque puede liberarse en neuronas simpáticas o desde médula suprarrenal",
+      "Porque solo circula unida a proteínas",
+      "Porque actúa únicamente en el cerebro"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "Puede actuar como neurotransmisor en neuronas simpáticas y como hormona desde la médula suprarrenal.",
     "feedbackIncorrecto": [
-      "El transporte sanguíneo ocurre antes de que la hormona llegue a la célula diana.",
+      "No corresponde. Puede actuar como neurotransmisor en neuronas simpáticas y como hormona desde la médula suprarrenal.",
       "",
-      "La síntesis hormonal ocurre en células endocrinas y no es función del segundo mensajero.",
-      "Algunas señales pueden regular receptores, pero esa no es la función principal de los segundos mensajeros."
-    ],
-    "explicacionCorrecta": "Los segundos mensajeros permiten transmitir y amplificar la señal generada por la unión hormona-receptor.",
-    "siguienteSiAcierta": 24,
-    "siguienteSiFalla": 21
+      "No corresponde. Puede actuar como neurotransmisor en neuronas simpáticas y como hormona desde la médula suprarrenal.",
+      "No corresponde. Puede actuar como neurotransmisor en neuronas simpáticas y como hormona desde la médula suprarrenal."
+    ]
   },
   {
     "id": 24,
-    "tema": "Mecanismo de acción hormonal",
-    "nivel": 3,
-    "pregunta": "Una hormona activa un receptor de membrana y aumenta rápidamente el AMPc intracelular. ¿Qué representa el AMPc?",
+    "nivel": 2,
+    "tema": "Hormonas",
+    "pregunta": "¿Cuál de estas funciones está regulada por hormonas?",
     "alternativas": [
-      "Una hormona circulante",
-      "Un segundo mensajero",
-      "Un receptor nuclear",
-      "Una proteína transportadora plasmática"
+      "Metabolismo y equilibrio energético",
+      "Solo percepción visual",
+      "Únicamente reflejos espinales",
+      "Solo conducción nerviosa"
     ],
-    "correcta": 1,
+    "correcta": 0,
+    "explicacionCorrecta": "Las hormonas participan en metabolismo, crecimiento, reproducción y ritmos circadianos.",
     "feedbackIncorrecto": [
-      "El AMPc se produce dentro de la célula tras la activación del receptor.",
       "",
-      "El AMPc no es un receptor.",
-      "No participa en el transporte plasmático de hormonas."
-    ],
-    "explicacionCorrecta": "El AMPc es un segundo mensajero que transmite señales desde receptores de membrana hacia mecanismos intracelulares.",
-    "siguienteSiAcierta": 25,
-    "siguienteSiFalla": 23
+      "No corresponde. Las hormonas participan en metabolismo, crecimiento, reproducción y ritmos circadianos.",
+      "No corresponde. Las hormonas participan en metabolismo, crecimiento, reproducción y ritmos circadianos.",
+      "No corresponde. Las hormonas participan en metabolismo, crecimiento, reproducción y ritmos circadianos."
+    ]
   },
   {
     "id": 25,
-    "tema": "Mecanismo de acción hormonal",
-    "nivel": 3,
-    "pregunta": "¿Por qué las hormonas esteroideas suelen tener efectos más lentos pero prolongados?",
+    "nivel": 2,
+    "tema": "Hipotálamo-hipófisis",
+    "pregunta": "¿Cuál es la relación funcional correcta entre hipotálamo y adenohipófisis?",
     "alternativas": [
-      "Porque modifican frecuentemente la expresión génica y la síntesis proteica",
-      "Porque no poseen receptores específicos",
-      "Porque permanecen exclusivamente fuera de la célula",
-      "Porque destruyen rápidamente sus células diana"
+      "El hipotálamo produce factores liberadores que regulan la adenohipófisis",
+      "La adenohipófisis produce todas las hormonas hipotalámicas",
+      "No existe comunicación vascular",
+      "Solo se comunican mediante músculo liso"
     ],
     "correcta": 0,
+    "explicacionCorrecta": "El hipotálamo regula a la adenohipófisis mediante hormonas liberadoras e inhibitorias.",
     "feedbackIncorrecto": [
       "",
-      "Las hormonas esteroideas poseen receptores específicos.",
-      "Pueden atravesar la membrana y actuar mediante receptores intracelulares.",
-      "Su acción fisiológica no depende de destruir células."
-    ],
-    "explicacionCorrecta": "Muchos efectos de las hormonas esteroideas dependen de cambios en transcripción génica y síntesis de proteínas, lo que requiere tiempo.",
-    "siguienteSiAcierta": 26,
-    "siguienteSiFalla": 22
+      "No corresponde. El hipotálamo regula a la adenohipófisis mediante hormonas liberadoras e inhibitorias.",
+      "No corresponde. El hipotálamo regula a la adenohipófisis mediante hormonas liberadoras e inhibitorias.",
+      "No corresponde. El hipotálamo regula a la adenohipófisis mediante hormonas liberadoras e inhibitorias."
+    ]
   },
   {
     "id": 26,
-    "tema": "Transporte hormonal",
-    "nivel": 3,
-    "pregunta": "Una hormona liposoluble circula en sangre principalmente unida a proteínas plasmáticas. ¿Qué ventaja fisiológica puede proporcionar esta unión?",
+    "nivel": 2,
+    "tema": "Hormonas tróficas",
+    "pregunta": "¿Por qué TSH se considera una hormona trófica?",
     "alternativas": [
-      "Impedir completamente que llegue a sus tejidos diana",
-      "Aumentar su solubilidad y prolongar su permanencia en circulación",
-      "Convertirla automáticamente en una hormona peptídica",
-      "Permitir que actúe sin receptor"
+      "Porque actúa sobre otra glándula endocrina, la tiroides",
+      "Porque disminuye la glucemia",
+      "Porque se almacena en neurohipófisis",
+      "Porque actúa solo en músculo"
     ],
-    "correcta": 1,
+    "correcta": 0,
+    "explicacionCorrecta": "TSH estimula la función de la glándula tiroides.",
     "feedbackIncorrecto": [
-      "La hormona puede disociarse del transportador y quedar disponible para actuar.",
       "",
-      "La unión a proteínas no cambia la naturaleza química de la hormona.",
-      "La presencia de un receptor sigue siendo necesaria para producir una respuesta específica."
-    ],
-    "explicacionCorrecta": "Las proteínas transportadoras facilitan el transporte de hormonas liposolubles y pueden prolongar su vida media plasmática.",
-    "siguienteSiAcierta": 27,
-    "siguienteSiFalla": 22
+      "No corresponde. TSH estimula la función de la glándula tiroides.",
+      "No corresponde. TSH estimula la función de la glándula tiroides.",
+      "No corresponde. TSH estimula la función de la glándula tiroides."
+    ]
   },
   {
     "id": 27,
-    "tema": "Transporte hormonal",
-    "nivel": 4,
-    "pregunta": "Si aumenta bruscamente una proteína transportadora plasmática para una hormona liposoluble, pero la producción hormonal permanece estable, ¿qué cambio inicial podría observarse?",
+    "nivel": 2,
+    "tema": "Hormonas no tróficas",
+    "pregunta": "¿Qué característica define mejor a una hormona no trófica?",
     "alternativas": [
-      "Aumento inmediato de la fracción libre",
-      "Disminución transitoria de la fracción libre",
-      "Desaparición completa de la hormona",
-      "Pérdida inmediata de todos sus receptores"
+      "Estimula exclusivamente otra glándula endocrina",
+      "Actúa directamente sobre su tejido blanco",
+      "No posee receptor",
+      "Siempre es liposoluble"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "Las hormonas no tróficas ejercen su efecto directamente sobre células blanco.",
     "feedbackIncorrecto": [
-      "Una mayor disponibilidad de proteínas transportadoras tiende inicialmente a captar más hormona libre.",
+      "No corresponde. Las hormonas no tróficas ejercen su efecto directamente sobre células blanco.",
       "",
-      "La hormona no desaparece; cambia su distribución entre fracción libre y unida.",
-      "La concentración de proteínas transportadoras no elimina automáticamente los receptores."
-    ],
-    "explicacionCorrecta": "Al aumentar la proteína transportadora, una mayor proporción de hormona puede quedar unida inicialmente, reduciendo transitoriamente la fracción libre.",
-    "siguienteSiAcierta": 28,
-    "siguienteSiFalla": 26
+      "No corresponde. Las hormonas no tróficas ejercen su efecto directamente sobre células blanco.",
+      "No corresponde. Las hormonas no tróficas ejercen su efecto directamente sobre células blanco."
+    ]
   },
   {
     "id": 28,
-    "tema": "Sensibilidad hormonal",
-    "nivel": 3,
-    "pregunta": "Una célula expuesta durante mucho tiempo a concentraciones elevadas de una hormona puede reducir el número de receptores. Este fenómeno se denomina:",
+    "nivel": 2,
+    "tema": "Tiroides",
+    "pregunta": "¿Cuál es una consecuencia del aumento del índice metabólico basal por T3 y T4?",
     "alternativas": [
-      "Retroalimentación positiva",
-      "Up-regulation",
-      "Down-regulation",
-      "Potenciación osmótica"
+      "Menor consumo de oxígeno",
+      "Mayor consumo de O₂ y producción de ATP",
+      "Disminución absoluta de actividad celular",
+      "Supresión de todas las bombas iónicas"
     ],
-    "correcta": 2,
+    "correcta": 1,
+    "explicacionCorrecta": "T3 y T4 aumentan consumo de oxígeno, producción de ATP y metabolismo energético.",
     "feedbackIncorrecto": [
-      "La retroalimentación positiva describe la amplificación de una respuesta, no la disminución de receptores.",
-      "Up-regulation corresponde al aumento del número o sensibilidad de receptores.",
+      "No corresponde. T3 y T4 aumentan consumo de oxígeno, producción de ATP y metabolismo energético.",
       "",
-      "No es un mecanismo reconocido de regulación de receptores hormonales."
-    ],
-    "explicacionCorrecta": "El down-regulation disminuye la cantidad o disponibilidad de receptores y reduce la sensibilidad celular frente a una exposición hormonal persistente.",
-    "siguienteSiAcierta": 29,
-    "siguienteSiFalla": 22
+      "No corresponde. T3 y T4 aumentan consumo de oxígeno, producción de ATP y metabolismo energético.",
+      "No corresponde. T3 y T4 aumentan consumo de oxígeno, producción de ATP y metabolismo energético."
+    ]
   },
   {
     "id": 29,
-    "tema": "Sensibilidad hormonal",
-    "nivel": 4,
-    "pregunta": "Un paciente mantiene una concentración plasmática elevada de una hormona, pero con el tiempo la respuesta del tejido disminuye. ¿Qué mecanismo celular podría contribuir a este fenómeno?",
+    "nivel": 2,
+    "tema": "Tiroides",
+    "pregunta": "¿Cómo contribuyen T3 y T4 al efecto calorigénico?",
     "alternativas": [
-      "Aumento sostenido de receptores",
-      "Down-regulation de receptores",
-      "Producción de más hormona por el mismo tejido diana",
-      "Conversión del receptor en hormona"
+      "Reducen el uso de ATP",
+      "Estimulan bombas Na⁺/K⁺ y elevan el gasto de ATP",
+      "Bloquean el metabolismo de lípidos",
+      "Disminuyen la temperatura corporal"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "El aumento de actividad de bombas Na⁺/K⁺ incrementa consumo de ATP y producción de calor.",
     "feedbackIncorrecto": [
-      "Un aumento de receptores tendería a incrementar, no reducir, la sensibilidad.",
+      "No corresponde. El aumento de actividad de bombas Na⁺/K⁺ incrementa consumo de ATP y producción de calor.",
       "",
-      "El problema descrito es disminución de respuesta del tejido, no necesariamente aumento de síntesis hormonal.",
-      "Los receptores no se transforman en hormonas."
-    ],
-    "explicacionCorrecta": "La exposición prolongada a concentraciones hormonales elevadas puede disminuir receptores o reducir la señalización intracelular, generando menor sensibilidad.",
-    "siguienteSiAcierta": 30,
-    "siguienteSiFalla": 28
+      "No corresponde. El aumento de actividad de bombas Na⁺/K⁺ incrementa consumo de ATP y producción de calor.",
+      "No corresponde. El aumento de actividad de bombas Na⁺/K⁺ incrementa consumo de ATP y producción de calor."
+    ]
   },
   {
     "id": 30,
-    "tema": "Integración de mecanismos hormonales",
-    "nivel": 4,
-    "pregunta": "Dos hormonas producen el mismo efecto fisiológico final. Una actúa en segundos y la otra requiere varias horas. ¿Cuál es la explicación más probable?",
+    "nivel": 2,
+    "tema": "Tiroides",
+    "pregunta": "¿Cómo potencian T3 y T4 los efectos de catecolaminas?",
     "alternativas": [
-      "Ambas utilizan necesariamente el mismo tipo de receptor",
-      "La hormona rápida podría utilizar señalización de membrana y la lenta modificar expresión génica",
-      "La hormona lenta carece de receptor",
-      "La hormona rápida debe ser siempre esteroidea"
+      "Disminuyendo receptores beta",
+      "Aumentando receptores beta",
+      "Eliminando receptores adrenérgicos",
+      "Bloqueando el corazón"
     ],
     "correcta": 1,
+    "explicacionCorrecta": "Las hormonas tiroideas aumentan la expresión/sensibilidad beta-adrenérgica.",
     "feedbackIncorrecto": [
-      "Un mismo efecto final puede alcanzarse mediante vías de señalización diferentes.",
+      "No corresponde. Las hormonas tiroideas aumentan la expresión/sensibilidad beta-adrenérgica.",
       "",
-      "Toda respuesta hormonal específica requiere reconocimiento mediante receptores.",
-      "Las hormonas esteroideas suelen presentar respuestas relativamente más lentas debido a sus efectos genómicos."
+      "No corresponde. Las hormonas tiroideas aumentan la expresión/sensibilidad beta-adrenérgica.",
+      "No corresponde. Las hormonas tiroideas aumentan la expresión/sensibilidad beta-adrenérgica."
+    ]
+  },
+  {
+    "id": 31,
+    "nivel": 2,
+    "tema": "Eje tiroideo",
+    "pregunta": "¿Qué ocurre cuando disminuyen T3 y T4 en un eje intacto?",
+    "alternativas": [
+      "Disminuyen TRH y TSH",
+      "Aumentan TRH y TSH",
+      "Aumenta insulina y baja TSH",
+      "Se inhibe el hipotálamo"
     ],
-    "explicacionCorrecta": "La velocidad de respuesta depende del mecanismo de señalización. Las vías de membrana pueden modificar proteínas preexistentes rápidamente, mientras que la regulación génica suele requerir más tiempo.",
-    "siguienteSiAcierta": null,
-    "siguienteSiFalla": 24
+    "correcta": 1,
+    "explicacionCorrecta": "Al caer T3/T4 disminuye la retroalimentación negativa y aumentan TRH y TSH.",
+    "feedbackIncorrecto": [
+      "No corresponde. Al caer T3/T4 disminuye la retroalimentación negativa y aumentan TRH y TSH.",
+      "",
+      "No corresponde. Al caer T3/T4 disminuye la retroalimentación negativa y aumentan TRH y TSH.",
+      "No corresponde. Al caer T3/T4 disminuye la retroalimentación negativa y aumentan TRH y TSH."
+    ]
+  },
+  {
+    "id": 32,
+    "nivel": 2,
+    "tema": "Paratiroides",
+    "pregunta": "¿Qué estímulo favorece la secreción de PTH?",
+    "alternativas": [
+      "Aumento de calcio plasmático",
+      "Disminución de calcio plasmático",
+      "Aumento de glucosa",
+      "Disminución de cortisol"
+    ],
+    "correcta": 1,
+    "explicacionCorrecta": "La disminución de Ca²⁺ sanguíneo estimula PTH.",
+    "feedbackIncorrecto": [
+      "No corresponde. La disminución de Ca²⁺ sanguíneo estimula PTH.",
+      "",
+      "No corresponde. La disminución de Ca²⁺ sanguíneo estimula PTH.",
+      "No corresponde. La disminución de Ca²⁺ sanguíneo estimula PTH."
+    ]
+  },
+  {
+    "id": 33,
+    "nivel": 2,
+    "tema": "Paratiroides",
+    "pregunta": "¿Qué efecto renal de PTH favorece el aumento de calcio sanguíneo?",
+    "alternativas": [
+      "Aumenta eliminación urinaria de Ca²⁺",
+      "Aumenta reabsorción de Ca²⁺",
+      "Bloquea calcitriol",
+      "Aumenta eliminación de Mg²⁺"
+    ],
+    "correcta": 1,
+    "explicacionCorrecta": "PTH aumenta la reabsorción renal de calcio.",
+    "feedbackIncorrecto": [
+      "No corresponde. PTH aumenta la reabsorción renal de calcio.",
+      "",
+      "No corresponde. PTH aumenta la reabsorción renal de calcio.",
+      "No corresponde. PTH aumenta la reabsorción renal de calcio."
+    ]
+  },
+  {
+    "id": 34,
+    "nivel": 2,
+    "tema": "Suprarrenales",
+    "pregunta": "¿Qué zona cortical secreta glucocorticoides?",
+    "alternativas": [
+      "Glomerular",
+      "Fascicular",
+      "Reticular",
+      "Medular"
+    ],
+    "correcta": 1,
+    "explicacionCorrecta": "La zona fascicular secreta glucocorticoides como cortisol.",
+    "feedbackIncorrecto": [
+      "No corresponde. La zona fascicular secreta glucocorticoides como cortisol.",
+      "",
+      "No corresponde. La zona fascicular secreta glucocorticoides como cortisol.",
+      "No corresponde. La zona fascicular secreta glucocorticoides como cortisol."
+    ]
+  },
+  {
+    "id": 35,
+    "nivel": 2,
+    "tema": "Suprarrenales",
+    "pregunta": "¿Qué zona cortical secreta mineralocorticoides?",
+    "alternativas": [
+      "Glomerular",
+      "Fascicular",
+      "Reticular",
+      "Medular"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La zona glomerular secreta mineralocorticoides como aldosterona.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La zona glomerular secreta mineralocorticoides como aldosterona.",
+      "No corresponde. La zona glomerular secreta mineralocorticoides como aldosterona.",
+      "No corresponde. La zona glomerular secreta mineralocorticoides como aldosterona."
+    ]
+  },
+  {
+    "id": 36,
+    "nivel": 2,
+    "tema": "Aldosterona",
+    "pregunta": "¿Cuál es el efecto renal principal de la aldosterona descrito en clase?",
+    "alternativas": [
+      "Disminuir reabsorción de sodio",
+      "Aumentar reabsorción de sodio",
+      "Aumentar glucagón",
+      "Disminuir calcio sanguíneo"
+    ],
+    "correcta": 1,
+    "explicacionCorrecta": "La aldosterona aumenta la reabsorción de Na⁺ y contribuye a mantener volumen y presión.",
+    "feedbackIncorrecto": [
+      "No corresponde. La aldosterona aumenta la reabsorción de Na⁺ y contribuye a mantener volumen y presión.",
+      "",
+      "No corresponde. La aldosterona aumenta la reabsorción de Na⁺ y contribuye a mantener volumen y presión.",
+      "No corresponde. La aldosterona aumenta la reabsorción de Na⁺ y contribuye a mantener volumen y presión."
+    ]
+  },
+  {
+    "id": 37,
+    "nivel": 2,
+    "tema": "Cortisol",
+    "pregunta": "¿Qué función se atribuye al cortisol en la clase?",
+    "alternativas": [
+      "Control metabólico y efecto antiinflamatorio",
+      "Disminuir directamente TSH",
+      "Formar calcitonina",
+      "Reducir siempre la glucemia"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El cortisol regula metabolismo de grasas, proteínas y carbohidratos y tiene efecto antiinflamatorio.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El cortisol regula metabolismo de grasas, proteínas y carbohidratos y tiene efecto antiinflamatorio.",
+      "No corresponde. El cortisol regula metabolismo de grasas, proteínas y carbohidratos y tiene efecto antiinflamatorio.",
+      "No corresponde. El cortisol regula metabolismo de grasas, proteínas y carbohidratos y tiene efecto antiinflamatorio."
+    ]
+  },
+  {
+    "id": 38,
+    "nivel": 2,
+    "tema": "Páncreas",
+    "pregunta": "¿Por qué el páncreas se considera una glándula mixta?",
+    "alternativas": [
+      "Porque posee dos lóbulos",
+      "Porque tiene función endocrina y exocrina",
+      "Porque solo produce dos hormonas",
+      "Porque está junto al estómago"
+    ],
+    "correcta": 1,
+    "explicacionCorrecta": "El páncreas tiene secreción endocrina y exocrina.",
+    "feedbackIncorrecto": [
+      "No corresponde. El páncreas tiene secreción endocrina y exocrina.",
+      "",
+      "No corresponde. El páncreas tiene secreción endocrina y exocrina.",
+      "No corresponde. El páncreas tiene secreción endocrina y exocrina."
+    ]
+  },
+  {
+    "id": 39,
+    "nivel": 2,
+    "tema": "Hormonas liposolubles",
+    "pregunta": "¿Dónde se localiza típicamente el receptor de una hormona liposoluble?",
+    "alternativas": [
+      "En el interior de la célula",
+      "Solo en la membrana plasmática",
+      "En la sangre",
+      "En el conducto exocrino"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Las hormonas liposolubles atraviesan la membrana y se unen a receptores intracelulares.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Las hormonas liposolubles atraviesan la membrana y se unen a receptores intracelulares.",
+      "No corresponde. Las hormonas liposolubles atraviesan la membrana y se unen a receptores intracelulares.",
+      "No corresponde. Las hormonas liposolubles atraviesan la membrana y se unen a receptores intracelulares."
+    ]
+  },
+  {
+    "id": 40,
+    "nivel": 2,
+    "tema": "Hormonas hidrosolubles",
+    "pregunta": "¿Qué segundo mensajero se destaca en la clase para hormonas hidrosolubles?",
+    "alternativas": [
+      "AMPc",
+      "ADN",
+      "Hemoglobina",
+      "Colesterol"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "En la clase se utiliza AMPc como ejemplo de segundo mensajero intracelular.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. En la clase se utiliza AMPc como ejemplo de segundo mensajero intracelular.",
+      "No corresponde. En la clase se utiliza AMPc como ejemplo de segundo mensajero intracelular.",
+      "No corresponde. En la clase se utiliza AMPc como ejemplo de segundo mensajero intracelular."
+    ]
+  },
+  {
+    "id": 41,
+    "nivel": 3,
+    "tema": "Sistema nervioso vs endocrino",
+    "pregunta": "Un mensajero produce una respuesta en segundos y permanece circulando durante minutos. ¿Qué sistema explica mejor este patrón?",
+    "alternativas": [
+      "Endocrino",
+      "Nervioso sináptico exclusivamente",
+      "Esquelético",
+      "Linfático"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El patrón de distribución sanguínea y duración relativamente prolongada es característico de señalización endocrina.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El patrón de distribución sanguínea y duración relativamente prolongada es característico de señalización endocrina.",
+      "No corresponde. El patrón de distribución sanguínea y duración relativamente prolongada es característico de señalización endocrina.",
+      "No corresponde. El patrón de distribución sanguínea y duración relativamente prolongada es característico de señalización endocrina."
+    ]
+  },
+  {
+    "id": 42,
+    "nivel": 3,
+    "tema": "Célula diana",
+    "pregunta": "Una hormona está elevada, pero un tejido no responde. ¿Qué explicación es más coherente?",
+    "alternativas": [
+      "El tejido carece de receptores funcionales",
+      "La hormona no puede viajar por sangre",
+      "Todas las hormonas actúan sin receptor",
+      "El tejido debe producir la misma hormona"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La respuesta depende de receptores adecuados y de una vía de señalización funcional.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La respuesta depende de receptores adecuados y de una vía de señalización funcional.",
+      "No corresponde. La respuesta depende de receptores adecuados y de una vía de señalización funcional.",
+      "No corresponde. La respuesta depende de receptores adecuados y de una vía de señalización funcional."
+    ]
+  },
+  {
+    "id": 43,
+    "nivel": 3,
+    "tema": "Hipófisis",
+    "pregunta": "Una lesión afecta la adenohipófisis. ¿Qué grupo de hormonas podría disminuir directamente?",
+    "alternativas": [
+      "TSH, ACTH, FSH y LH",
+      "Adrenalina y noradrenalina",
+      "T3 y T4 sintetizadas en hipófisis",
+      "Insulina y glucagón"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "TSH, ACTH, FSH y LH son hormonas adenohipofisarias.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. TSH, ACTH, FSH y LH son hormonas adenohipofisarias.",
+      "No corresponde. TSH, ACTH, FSH y LH son hormonas adenohipofisarias.",
+      "No corresponde. TSH, ACTH, FSH y LH son hormonas adenohipofisarias."
+    ]
+  },
+  {
+    "id": 44,
+    "nivel": 3,
+    "tema": "Neurohipófisis",
+    "pregunta": "Si se daña la neurohipófisis pero el hipotálamo sigue sintetizando sus hormonas, ¿qué función se altera principalmente?",
+    "alternativas": [
+      "Almacenamiento y liberación hacia sangre",
+      "Síntesis de TSH",
+      "Síntesis de T3",
+      "Producción de insulina"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La neurohipófisis almacena y libera hormonas hipotalámicas.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La neurohipófisis almacena y libera hormonas hipotalámicas.",
+      "No corresponde. La neurohipófisis almacena y libera hormonas hipotalámicas.",
+      "No corresponde. La neurohipófisis almacena y libera hormonas hipotalámicas."
+    ]
+  },
+  {
+    "id": 45,
+    "nivel": 3,
+    "tema": "Eje tiroideo",
+    "pregunta": "Un paciente tiene T3/T4 bajas y TSH elevada. ¿Qué interpretación fisiológica es más coherente?",
+    "alternativas": [
+      "La hipófisis intenta estimular una tiroides hipoactiva",
+      "Existe exceso de función tiroidea",
+      "La hipófisis no responde a T3/T4",
+      "El páncreas está fallando"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "TSH elevada con T3/T4 bajas es compatible con respuesta compensatoria ante baja función tiroidea.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. TSH elevada con T3/T4 bajas es compatible con respuesta compensatoria ante baja función tiroidea.",
+      "No corresponde. TSH elevada con T3/T4 bajas es compatible con respuesta compensatoria ante baja función tiroidea.",
+      "No corresponde. TSH elevada con T3/T4 bajas es compatible con respuesta compensatoria ante baja función tiroidea."
+    ]
+  },
+  {
+    "id": 46,
+    "nivel": 3,
+    "tema": "Eje tiroideo",
+    "pregunta": "Un aumento sostenido de T3 inhibe TRH y TSH. ¿Qué mecanismo representa?",
+    "alternativas": [
+      "Retroalimentación negativa",
+      "Retroalimentación positiva",
+      "Secreción exocrina",
+      "Control neural directo"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El aumento de la hormona final reduce estímulos superiores del eje.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El aumento de la hormona final reduce estímulos superiores del eje.",
+      "No corresponde. El aumento de la hormona final reduce estímulos superiores del eje.",
+      "No corresponde. El aumento de la hormona final reduce estímulos superiores del eje."
+    ]
+  },
+  {
+    "id": 47,
+    "nivel": 3,
+    "tema": "Tiroides",
+    "pregunta": "Un paciente con exceso de hormonas tiroideas presenta intolerancia al calor. ¿Qué mecanismo de la clase lo explica mejor?",
+    "alternativas": [
+      "Mayor actividad metabólica y consumo de ATP",
+      "Menor actividad de bombas Na⁺/K⁺",
+      "Disminución del metabolismo",
+      "Reducción de consumo de O₂"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El aumento del metabolismo y del gasto de ATP incrementa la producción de calor.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El aumento del metabolismo y del gasto de ATP incrementa la producción de calor.",
+      "No corresponde. El aumento del metabolismo y del gasto de ATP incrementa la producción de calor.",
+      "No corresponde. El aumento del metabolismo y del gasto de ATP incrementa la producción de calor."
+    ]
+  },
+  {
+    "id": 48,
+    "nivel": 3,
+    "tema": "Tiroides",
+    "pregunta": "¿Qué hallazgo cardiovascular sería coherente con potenciación de catecolaminas por T3/T4?",
+    "alternativas": [
+      "Aumento de frecuencia y contractilidad cardíaca",
+      "Bradicardia obligatoria",
+      "Disminución de receptores beta",
+      "Ausencia de respuesta simpática"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Más señalización beta-adrenérgica favorece aumento de frecuencia y fuerza cardíaca.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Más señalización beta-adrenérgica favorece aumento de frecuencia y fuerza cardíaca.",
+      "No corresponde. Más señalización beta-adrenérgica favorece aumento de frecuencia y fuerza cardíaca.",
+      "No corresponde. Más señalización beta-adrenérgica favorece aumento de frecuencia y fuerza cardíaca."
+    ]
+  },
+  {
+    "id": 49,
+    "nivel": 3,
+    "tema": "Paratiroides",
+    "pregunta": "Un paciente presenta hipocalcemia. ¿Qué respuesta de PTH sería esperable?",
+    "alternativas": [
+      "Aumento de reabsorción renal de Ca²⁺",
+      "Aumento de pérdida urinaria de Ca²⁺",
+      "Disminución de calcitriol",
+      "Disminución de resorción ósea"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "PTH ayuda a elevar el calcio mediante acciones en hueso, riñón y activación de vitamina D.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. PTH ayuda a elevar el calcio mediante acciones en hueso, riñón y activación de vitamina D.",
+      "No corresponde. PTH ayuda a elevar el calcio mediante acciones en hueso, riñón y activación de vitamina D.",
+      "No corresponde. PTH ayuda a elevar el calcio mediante acciones en hueso, riñón y activación de vitamina D."
+    ]
+  },
+  {
+    "id": 50,
+    "nivel": 3,
+    "tema": "Paratiroides",
+    "pregunta": "Si aumenta PTH, ¿qué cambio de fosfato sanguíneo se espera globalmente según la clase?",
+    "alternativas": [
+      "Disminución",
+      "Aumento sostenido obligatorio",
+      "Sin cambio",
+      "Desaparición total"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La PTH aumenta la excreción renal de fosfato, por lo que su efecto global es disminuirlo.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La PTH aumenta la excreción renal de fosfato, por lo que su efecto global es disminuirlo.",
+      "No corresponde. La PTH aumenta la excreción renal de fosfato, por lo que su efecto global es disminuirlo.",
+      "No corresponde. La PTH aumenta la excreción renal de fosfato, por lo que su efecto global es disminuirlo."
+    ]
+  },
+  {
+    "id": 51,
+    "nivel": 3,
+    "tema": "Adrenalina",
+    "pregunta": "Ante una amenaza aguda, ¿qué cambio es coherente con la liberación de adrenalina?",
+    "alternativas": [
+      "Mayor glucogenólisis hepática y mayor disponibilidad de glucosa",
+      "Disminución de frecuencia cardíaca",
+      "Broncoconstricción generalizada",
+      "Menor contractilidad miocárdica"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La adrenalina prepara al organismo para respuesta rápida, aumentando energía disponible y función cardiovascular.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La adrenalina prepara al organismo para respuesta rápida, aumentando energía disponible y función cardiovascular.",
+      "No corresponde. La adrenalina prepara al organismo para respuesta rápida, aumentando energía disponible y función cardiovascular.",
+      "No corresponde. La adrenalina prepara al organismo para respuesta rápida, aumentando energía disponible y función cardiovascular."
+    ]
+  },
+  {
+    "id": 52,
+    "nivel": 3,
+    "tema": "Adrenalina",
+    "pregunta": "¿Qué cambio respiratorio favorece la adrenalina según la clase?",
+    "alternativas": [
+      "Relajación del músculo liso de vías respiratorias",
+      "Contracción bronquial intensa",
+      "Disminución de capacidad pulmonar",
+      "Bloqueo del músculo liso pulmonar"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La adrenalina relaja músculo liso de vías respiratorias y facilita la ventilación.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La adrenalina relaja músculo liso de vías respiratorias y facilita la ventilación.",
+      "No corresponde. La adrenalina relaja músculo liso de vías respiratorias y facilita la ventilación.",
+      "No corresponde. La adrenalina relaja músculo liso de vías respiratorias y facilita la ventilación."
+    ]
+  },
+  {
+    "id": 53,
+    "nivel": 3,
+    "tema": "Suprarrenales",
+    "pregunta": "Una lesión selectiva de la zona fascicular afectaría principalmente la producción de:",
+    "alternativas": [
+      "Cortisol",
+      "Aldosterona",
+      "Catecolaminas",
+      "Calcitonina"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La zona fascicular produce glucocorticoides, especialmente cortisol.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La zona fascicular produce glucocorticoides, especialmente cortisol.",
+      "No corresponde. La zona fascicular produce glucocorticoides, especialmente cortisol.",
+      "No corresponde. La zona fascicular produce glucocorticoides, especialmente cortisol."
+    ]
+  },
+  {
+    "id": 54,
+    "nivel": 3,
+    "tema": "Aldosterona",
+    "pregunta": "Si aumenta la aldosterona, ¿qué cambio favorece en el organismo?",
+    "alternativas": [
+      "Retención de sodio y mantenimiento del volumen",
+      "Pérdida marcada de sodio",
+      "Disminución de volumen sanguíneo",
+      "Caída obligatoria de presión arterial"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Al aumentar reabsorción de Na⁺, contribuye al mantenimiento del volumen y la presión.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Al aumentar reabsorción de Na⁺, contribuye al mantenimiento del volumen y la presión.",
+      "No corresponde. Al aumentar reabsorción de Na⁺, contribuye al mantenimiento del volumen y la presión.",
+      "No corresponde. Al aumentar reabsorción de Na⁺, contribuye al mantenimiento del volumen y la presión."
+    ]
+  },
+  {
+    "id": 55,
+    "nivel": 3,
+    "tema": "Páncreas",
+    "pregunta": "Después de una comida rica en hidratos de carbono aumenta la glucemia. ¿Qué respuesta endocrina es esperable?",
+    "alternativas": [
+      "Aumento de insulina",
+      "Aumento exclusivo de glucagón",
+      "Aumento de PTH",
+      "Aumento de TSH"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El aumento de glucemia estimula la secreción pancreática de insulina.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El aumento de glucemia estimula la secreción pancreática de insulina.",
+      "No corresponde. El aumento de glucemia estimula la secreción pancreática de insulina.",
+      "No corresponde. El aumento de glucemia estimula la secreción pancreática de insulina."
+    ]
+  },
+  {
+    "id": 56,
+    "nivel": 3,
+    "tema": "Páncreas",
+    "pregunta": "Durante ayuno, ¿qué hormona pancreática ayuda a elevar la glucemia?",
+    "alternativas": [
+      "Glucagón",
+      "Insulina",
+      "Calcitonina",
+      "Prolactina"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El glucagón es una hormona hiperglucemiante.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El glucagón es una hormona hiperglucemiante.",
+      "No corresponde. El glucagón es una hormona hiperglucemiante.",
+      "No corresponde. El glucagón es una hormona hiperglucemiante."
+    ]
+  },
+  {
+    "id": 57,
+    "nivel": 3,
+    "tema": "Hormonas liposolubles",
+    "pregunta": "Una hormona atraviesa la membrana y modifica expresión génica. ¿Qué tipo de hormona es más probable?",
+    "alternativas": [
+      "Liposoluble",
+      "Hidrosoluble",
+      "Neurotransmisor sin receptor",
+      "Enzima plasmática"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Las hormonas liposolubles atraviesan la membrana y actúan mediante receptores intracelulares.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Las hormonas liposolubles atraviesan la membrana y actúan mediante receptores intracelulares.",
+      "No corresponde. Las hormonas liposolubles atraviesan la membrana y actúan mediante receptores intracelulares.",
+      "No corresponde. Las hormonas liposolubles atraviesan la membrana y actúan mediante receptores intracelulares."
+    ]
+  },
+  {
+    "id": 58,
+    "nivel": 3,
+    "tema": "Hormonas hidrosolubles",
+    "pregunta": "Una hormona se une a un receptor de membrana y aumenta AMPc. ¿Qué tipo de señalización corresponde?",
+    "alternativas": [
+      "Hidrosoluble con segundo mensajero",
+      "Liposoluble con receptor nuclear",
+      "Exocrina",
+      "Sin receptor"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Las hormonas hidrosolubles actúan típicamente mediante receptores de membrana y segundos mensajeros.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Las hormonas hidrosolubles actúan típicamente mediante receptores de membrana y segundos mensajeros.",
+      "No corresponde. Las hormonas hidrosolubles actúan típicamente mediante receptores de membrana y segundos mensajeros.",
+      "No corresponde. Las hormonas hidrosolubles actúan típicamente mediante receptores de membrana y segundos mensajeros."
+    ]
+  },
+  {
+    "id": 59,
+    "nivel": 3,
+    "tema": "Control hormonal",
+    "pregunta": "Un cambio químico en sangre provoca secreción hormonal sin intervención de otra glándula. ¿Qué tipo de control ejemplifica?",
+    "alternativas": [
+      "Control por cambios químicos en sangre",
+      "Control exclusivamente trófico",
+      "Retroalimentación positiva obligatoria",
+      "Control exocrino"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La clase reconoce cambios químicos sanguíneos como uno de los reguladores de secreción hormonal.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La clase reconoce cambios químicos sanguíneos como uno de los reguladores de secreción hormonal.",
+      "No corresponde. La clase reconoce cambios químicos sanguíneos como uno de los reguladores de secreción hormonal.",
+      "No corresponde. La clase reconoce cambios químicos sanguíneos como uno de los reguladores de secreción hormonal."
+    ]
+  },
+  {
+    "id": 60,
+    "nivel": 3,
+    "tema": "Control hormonal",
+    "pregunta": "Si una hormona final elevada reduce la liberación de hormonas que la estimulan, ¿qué mecanismo está operando?",
+    "alternativas": [
+      "Feedback negativo",
+      "Feedback positivo",
+      "Secreción exocrina",
+      "Potenciación sin control"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El feedback negativo limita la sobreproducción hormonal.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El feedback negativo limita la sobreproducción hormonal.",
+      "No corresponde. El feedback negativo limita la sobreproducción hormonal.",
+      "No corresponde. El feedback negativo limita la sobreproducción hormonal."
+    ]
+  },
+  {
+    "id": 61,
+    "nivel": 4,
+    "tema": "Integración endocrina",
+    "pregunta": "Un tejido mantiene una respuesta baja pese a una concentración hormonal normal. ¿Cuál es la mejor explicación?",
+    "alternativas": [
+      "Alteración del receptor o señalización intracelular",
+      "Ausencia de sangre en todo el organismo",
+      "Todas las hormonas deben estar bajas",
+      "La hormona se vuelve exocrina"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Una respuesta reducida con hormona normal sugiere resistencia a nivel del receptor o postreceptor.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Una respuesta reducida con hormona normal sugiere resistencia a nivel del receptor o postreceptor.",
+      "No corresponde. Una respuesta reducida con hormona normal sugiere resistencia a nivel del receptor o postreceptor.",
+      "No corresponde. Una respuesta reducida con hormona normal sugiere resistencia a nivel del receptor o postreceptor."
+    ]
+  },
+  {
+    "id": 62,
+    "nivel": 4,
+    "tema": "Eje tiroideo",
+    "pregunta": "T3/T4 bajas con TSH alta sugieren principalmente:",
+    "alternativas": [
+      "Falla primaria tiroidea con respuesta hipofisaria conservada",
+      "Exceso primario de hormona tiroidea",
+      "Falla pancreática",
+      "Exceso de calcitonina"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El patrón indica que la hipófisis intenta compensar una producción tiroidea insuficiente.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El patrón indica que la hipófisis intenta compensar una producción tiroidea insuficiente.",
+      "No corresponde. El patrón indica que la hipófisis intenta compensar una producción tiroidea insuficiente.",
+      "No corresponde. El patrón indica que la hipófisis intenta compensar una producción tiroidea insuficiente."
+    ]
+  },
+  {
+    "id": 63,
+    "nivel": 4,
+    "tema": "Eje tiroideo",
+    "pregunta": "T3/T4 bajas con TSH inapropiadamente baja o normal podrían sugerir:",
+    "alternativas": [
+      "Alteración central hipotálamo-hipofisaria",
+      "Hiperfunción tiroidea primaria",
+      "Exceso de PTH",
+      "Hiperaldosteronismo"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Si la hormona final está baja y TSH no aumenta, debe considerarse un problema central.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Si la hormona final está baja y TSH no aumenta, debe considerarse un problema central.",
+      "No corresponde. Si la hormona final está baja y TSH no aumenta, debe considerarse un problema central.",
+      "No corresponde. Si la hormona final está baja y TSH no aumenta, debe considerarse un problema central."
+    ]
+  },
+  {
+    "id": 64,
+    "nivel": 4,
+    "tema": "Retroalimentación",
+    "pregunta": "Si se administra una hormona final de un eje en dosis altas durante tiempo prolongado, ¿qué efecto esperaría sobre las hormonas estimuladoras superiores?",
+    "alternativas": [
+      "Disminución por retroalimentación negativa",
+      "Aumento obligatorio",
+      "Ausencia total de efecto",
+      "Conversión en señal exocrina"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La hormona final elevada suele inhibir hipotálamo e hipófisis por feedback negativo.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La hormona final elevada suele inhibir hipotálamo e hipófisis por feedback negativo.",
+      "No corresponde. La hormona final elevada suele inhibir hipotálamo e hipófisis por feedback negativo.",
+      "No corresponde. La hormona final elevada suele inhibir hipotálamo e hipófisis por feedback negativo."
+    ]
+  },
+  {
+    "id": 65,
+    "nivel": 4,
+    "tema": "PTH",
+    "pregunta": "Hipocalcemia acompañada de PTH elevada representa:",
+    "alternativas": [
+      "Respuesta compensatoria apropiada",
+      "Falla obligatoria de paratiroides",
+      "Exceso de calcitonina como única causa",
+      "Ausencia de regulación"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La PTH aumenta cuando baja el calcio para restaurar la calcemia.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La PTH aumenta cuando baja el calcio para restaurar la calcemia.",
+      "No corresponde. La PTH aumenta cuando baja el calcio para restaurar la calcemia.",
+      "No corresponde. La PTH aumenta cuando baja el calcio para restaurar la calcemia."
+    ]
+  },
+  {
+    "id": 66,
+    "nivel": 4,
+    "tema": "PTH",
+    "pregunta": "Un paciente con PTH elevada presenta fosfato plasmático bajo. ¿Qué acción de PTH lo explica?",
+    "alternativas": [
+      "Mayor excreción renal de fosfato",
+      "Mayor reabsorción renal de fosfato",
+      "Bloqueo total de riñón",
+      "Menor filtración glomerular como mecanismo único"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "PTH favorece la eliminación renal de fosfato.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. PTH favorece la eliminación renal de fosfato.",
+      "No corresponde. PTH favorece la eliminación renal de fosfato.",
+      "No corresponde. PTH favorece la eliminación renal de fosfato."
+    ]
+  },
+  {
+    "id": 67,
+    "nivel": 4,
+    "tema": "Suprarrenal",
+    "pregunta": "Si se destruye selectivamente la médula suprarrenal, ¿qué respuesta se afectaría más directamente?",
+    "alternativas": [
+      "Liberación hormonal de adrenalina y noradrenalina",
+      "Producción de cortisol",
+      "Producción de aldosterona",
+      "Secreción de PTH"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La médula suprarrenal es la fuente endocrina de catecolaminas.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La médula suprarrenal es la fuente endocrina de catecolaminas.",
+      "No corresponde. La médula suprarrenal es la fuente endocrina de catecolaminas.",
+      "No corresponde. La médula suprarrenal es la fuente endocrina de catecolaminas."
+    ]
+  },
+  {
+    "id": 68,
+    "nivel": 4,
+    "tema": "Suprarrenal",
+    "pregunta": "Si falla la zona glomerular, ¿qué efecto es más coherente?",
+    "alternativas": [
+      "Menor capacidad de retener sodio por reducción de aldosterona",
+      "Menor secreción de cortisol exclusivamente",
+      "Mayor síntesis de adrenalina",
+      "Aumento de insulina"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La zona glomerular produce aldosterona, que promueve reabsorción de sodio.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La zona glomerular produce aldosterona, que promueve reabsorción de sodio.",
+      "No corresponde. La zona glomerular produce aldosterona, que promueve reabsorción de sodio.",
+      "No corresponde. La zona glomerular produce aldosterona, que promueve reabsorción de sodio."
+    ]
+  },
+  {
+    "id": 69,
+    "nivel": 4,
+    "tema": "Suprarrenal",
+    "pregunta": "Un aumento de ACTH afectará de forma más directa a:",
+    "alternativas": [
+      "Corteza suprarrenal",
+      "Médula suprarrenal exclusivamente",
+      "Páncreas endocrino",
+      "Paratiroides"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "ACTH es una hormona trófica que estimula principalmente la corteza suprarrenal.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. ACTH es una hormona trófica que estimula principalmente la corteza suprarrenal.",
+      "No corresponde. ACTH es una hormona trófica que estimula principalmente la corteza suprarrenal.",
+      "No corresponde. ACTH es una hormona trófica que estimula principalmente la corteza suprarrenal."
+    ]
+  },
+  {
+    "id": 70,
+    "nivel": 4,
+    "tema": "Adrenalina",
+    "pregunta": "Taquicardia, mayor contractilidad y mayor disponibilidad de glucosa durante estrés agudo se explican mejor por:",
+    "alternativas": [
+      "Acción sistémica de catecolaminas",
+      "Aumento de PTH",
+      "Aumento de progesterona",
+      "Disminución de T3/T4"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Las catecolaminas coordinan respuestas rápidas cardiovasculares y metabólicas ante el estrés.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Las catecolaminas coordinan respuestas rápidas cardiovasculares y metabólicas ante el estrés.",
+      "No corresponde. Las catecolaminas coordinan respuestas rápidas cardiovasculares y metabólicas ante el estrés.",
+      "No corresponde. Las catecolaminas coordinan respuestas rápidas cardiovasculares y metabólicas ante el estrés."
+    ]
+  },
+  {
+    "id": 71,
+    "nivel": 4,
+    "tema": "Páncreas",
+    "pregunta": "Un paciente presenta hiperglucemia persistente y secreción insuficiente de insulina. ¿Qué función endocrina está comprometida?",
+    "alternativas": [
+      "La capacidad hipoglucemiante de las células beta",
+      "La función hiperglucemiante de células alfa únicamente",
+      "La producción de calcitonina",
+      "La producción de ACTH"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Las células beta producen insulina, hormona que reduce la glucemia.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Las células beta producen insulina, hormona que reduce la glucemia.",
+      "No corresponde. Las células beta producen insulina, hormona que reduce la glucemia.",
+      "No corresponde. Las células beta producen insulina, hormona que reduce la glucemia."
+    ]
+  },
+  {
+    "id": 72,
+    "nivel": 4,
+    "tema": "Páncreas",
+    "pregunta": "Si el glucagón aumenta durante ayuno, ¿qué objetivo homeostático persigue?",
+    "alternativas": [
+      "Evitar una caída excesiva de la glucemia",
+      "Reducir la glucemia posprandial",
+      "Aumentar calcio plasmático",
+      "Disminuir presión arterial"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El glucagón ayuda a mantener glucosa disponible durante el ayuno.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El glucagón ayuda a mantener glucosa disponible durante el ayuno.",
+      "No corresponde. El glucagón ayuda a mantener glucosa disponible durante el ayuno.",
+      "No corresponde. El glucagón ayuda a mantener glucosa disponible durante el ayuno."
+    ]
+  },
+  {
+    "id": 73,
+    "nivel": 4,
+    "tema": "Hormonas liposolubles",
+    "pregunta": "Una mutación impide que un receptor intracelular se una al ADN. ¿Qué tipo de hormona se afectaría especialmente?",
+    "alternativas": [
+      "Hormona liposoluble que regula expresión génica",
+      "Hormona hidrosoluble que actúa por AMPc",
+      "Catecolamina en receptor de membrana exclusivamente",
+      "Neurotransmisor sin receptor"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Las hormonas liposolubles pueden ejercer efectos mediante complejos hormona-receptor que regulan genes.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Las hormonas liposolubles pueden ejercer efectos mediante complejos hormona-receptor que regulan genes.",
+      "No corresponde. Las hormonas liposolubles pueden ejercer efectos mediante complejos hormona-receptor que regulan genes.",
+      "No corresponde. Las hormonas liposolubles pueden ejercer efectos mediante complejos hormona-receptor que regulan genes."
+    ]
+  },
+  {
+    "id": 74,
+    "nivel": 4,
+    "tema": "Hormonas hidrosolubles",
+    "pregunta": "Una célula posee receptor de membrana normal, pero no puede generar AMPc. ¿Qué ocurrirá probablemente?",
+    "alternativas": [
+      "La señal hormonal hidrosoluble puede no transmitirse adecuadamente",
+      "La hormona atravesará el núcleo de forma automática",
+      "La célula secretará T3",
+      "No habrá ningún efecto sobre señalización"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Si falla el segundo mensajero, la señal de un receptor de membrana puede no propagarse.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Si falla el segundo mensajero, la señal de un receptor de membrana puede no propagarse.",
+      "No corresponde. Si falla el segundo mensajero, la señal de un receptor de membrana puede no propagarse.",
+      "No corresponde. Si falla el segundo mensajero, la señal de un receptor de membrana puede no propagarse."
+    ]
+  },
+  {
+    "id": 75,
+    "nivel": 4,
+    "tema": "Control hormonal",
+    "pregunta": "¿Qué ventaja homeostática ofrece el feedback negativo?",
+    "alternativas": [
+      "Evita desviaciones excesivas y limita sobreproducción hormonal",
+      "Amplifica indefinidamente toda señal",
+      "Elimina la necesidad de receptores",
+      "Convierte hormonas en neurotransmisores"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El feedback negativo estabiliza variables y limita respuestas excesivas.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El feedback negativo estabiliza variables y limita respuestas excesivas.",
+      "No corresponde. El feedback negativo estabiliza variables y limita respuestas excesivas.",
+      "No corresponde. El feedback negativo estabiliza variables y limita respuestas excesivas."
+    ]
+  },
+  {
+    "id": 76,
+    "nivel": 4,
+    "tema": "Control hormonal",
+    "pregunta": "Una hormona estimula un proceso que aumenta aún más su propia liberación. Esto corresponde a:",
+    "alternativas": [
+      "Feedback positivo",
+      "Feedback negativo",
+      "Control exocrino",
+      "Inhibición tónica"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El feedback positivo amplifica la respuesta inicial.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El feedback positivo amplifica la respuesta inicial.",
+      "No corresponde. El feedback positivo amplifica la respuesta inicial.",
+      "No corresponde. El feedback positivo amplifica la respuesta inicial."
+    ]
+  },
+  {
+    "id": 77,
+    "nivel": 4,
+    "tema": "Integración metabólica",
+    "pregunta": "T3/T4 aumentadas pueden favorecer pérdida de peso a pesar de ingesta conservada. ¿Qué explicación de la clase lo sustenta?",
+    "alternativas": [
+      "Mayor índice metabólico y utilización de sustratos",
+      "Menor consumo de oxígeno",
+      "Menor lipólisis",
+      "Disminución global del metabolismo"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "Las hormonas tiroideas elevan el metabolismo y el uso de glucosa y ácidos grasos.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. Las hormonas tiroideas elevan el metabolismo y el uso de glucosa y ácidos grasos.",
+      "No corresponde. Las hormonas tiroideas elevan el metabolismo y el uso de glucosa y ácidos grasos.",
+      "No corresponde. Las hormonas tiroideas elevan el metabolismo y el uso de glucosa y ácidos grasos."
+    ]
+  },
+  {
+    "id": 78,
+    "nivel": 4,
+    "tema": "Integración calcio",
+    "pregunta": "Si PTH aumenta y calcitonina también aumenta, ¿qué describe mejor sus tendencias fisiológicas generales?",
+    "alternativas": [
+      "PTH tiende a elevar Ca²⁺ sanguíneo y calcitonina favorece depósito óseo",
+      "Ambas siempre elevan Ca²⁺ por el mismo mecanismo",
+      "Ambas disminuyen calcio renal exclusivamente",
+      "No participan en homeostasis del calcio"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La clase presenta PTH como elevadora de calcemia y calcitonina como favorecedora del depósito de calcio en hueso.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La clase presenta PTH como elevadora de calcemia y calcitonina como favorecedora del depósito de calcio en hueso.",
+      "No corresponde. La clase presenta PTH como elevadora de calcemia y calcitonina como favorecedora del depósito de calcio en hueso.",
+      "No corresponde. La clase presenta PTH como elevadora de calcemia y calcitonina como favorecedora del depósito de calcio en hueso."
+    ]
+  },
+  {
+    "id": 79,
+    "nivel": 4,
+    "tema": "Integración gonadal",
+    "pregunta": "La pérdida marcada de función ovárica afectaría directamente la producción de:",
+    "alternativas": [
+      "Estrógenos y progesterona",
+      "TSH y ACTH",
+      "Insulina y glucagón",
+      "T3 y T4"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "El ovario produce principalmente estrógenos y progesterona.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. El ovario produce principalmente estrógenos y progesterona.",
+      "No corresponde. El ovario produce principalmente estrógenos y progesterona.",
+      "No corresponde. El ovario produce principalmente estrógenos y progesterona."
+    ]
+  },
+  {
+    "id": 80,
+    "nivel": 4,
+    "tema": "Integración sistémica",
+    "pregunta": "¿Qué principio explica que una misma hormona afecte algunos tejidos y no otros?",
+    "alternativas": [
+      "Distribución de receptores específicos en células diana",
+      "Todas las células responden igual",
+      "Las hormonas solo actúan cerca de la glándula",
+      "La sangre selecciona químicamente los órganos"
+    ],
+    "correcta": 0,
+    "explicacionCorrecta": "La especificidad endocrina depende de la presencia de receptores y de la capacidad de respuesta de la célula diana.",
+    "feedbackIncorrecto": [
+      "",
+      "No corresponde. La especificidad endocrina depende de la presencia de receptores y de la capacidad de respuesta de la célula diana.",
+      "No corresponde. La especificidad endocrina depende de la presencia de receptores y de la capacidad de respuesta de la célula diana.",
+      "No corresponde. La especificidad endocrina depende de la presencia de receptores y de la capacidad de respuesta de la célula diana."
+    ]
   }
 ]
