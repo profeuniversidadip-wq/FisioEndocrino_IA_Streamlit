@@ -211,6 +211,52 @@ div[data-testid="stVerticalBlockBorderWrapper"] > div{
     .fixed-footer{font-size:.62rem;padding:4px 6px;}
 }
 
+
+/* Corrección definitiva del encabezado bajo la barra de Streamlit */
+.block-container{
+    padding-top:3.1rem !important;
+    padding-bottom:2.2rem !important;
+}
+
+/* Botón Reiniciar claramente visible */
+div[data-testid="stPopover"] > div > button,
+div[data-testid="stPopover"] button{
+    background:#eef4fa !important;
+    color:#334155 !important;
+    border:1px solid #b9c9db !important;
+    font-weight:650 !important;
+    min-height:34px !important;
+}
+div[data-testid="stPopover"] button p,
+div[data-testid="stPopover"] button span{
+    color:#334155 !important;
+}
+
+/* Pie siempre visible */
+.fixed-footer{
+    position:fixed !important;
+    left:0 !important;
+    right:0 !important;
+    bottom:0 !important;
+    z-index:9999 !important;
+    background:rgba(241,247,252,.97) !important;
+    border-top:1px solid #cad6e3 !important;
+    text-align:center !important;
+    padding:5px 8px !important;
+    font-size:.68rem !important;
+    color:#5f6c7b !important;
+}
+@media(max-width:700px){
+    .block-container{
+        padding-top:2.6rem !important;
+        padding-bottom:2rem !important;
+    }
+    .fixed-footer{
+        font-size:.60rem !important;
+        padding:4px 5px !important;
+    }
+}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -292,8 +338,8 @@ init()
 head1, head2 = st.columns([5.6,1.3], vertical_alignment="top")
 with head1:
     st.markdown("""
-    <div class="custom-header-title">FisioEndocrino IA</div>
-    <div class="custom-header-sub">10 preguntas por sesión · banco de 80 preguntas</div>
+    <div class="custom-header-title" style="display:block;color:#1f2937;font-size:1.65rem;font-weight:750;line-height:1.1;margin:0 0 3px 0;">FisioEndocrino IA</div>
+<div class="custom-header-sub" style="display:block;color:#667085;font-size:.78rem;margin:0 0 5px 0;">10 preguntas por sesión · banco de 80 preguntas</div>
     """, unsafe_allow_html=True)
 with head2:
     if st.session_state.iniciada:

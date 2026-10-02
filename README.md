@@ -42,3 +42,8 @@ Aplicación adaptativa basada en la clase **Sistema Endocrino 2026**.
 ## Encabezado y autoría robustos
 - Título renderizado como HTML propio para evitar recorte.
 - Autoría visible en barra inferior fija.
+
+## Corrección visual v4
+- Mayor separación superior para evitar que el título quede bajo la barra de Streamlit.
+- Botón Reiniciar con texto y contraste visibles.
+- Autoría fijada en la parte inferior de la pantalla.
